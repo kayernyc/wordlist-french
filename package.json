@@ -5,18 +5,26 @@
   "main": "asyncConversion.js",
   "private": true,
   "scripts": {
-    "start": "node asyncConversion.js",
+    "commit": "npx git-cz",
     "linting": "eslint --ignore-path .gitignore .",
+    "start": "node asyncConversion.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commitizen": "^4.0.3",
     "readline-sync": "^1.4.10"
   },
   "bin": "src/index.js",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.8.0",
     "eslint-config-strongloop": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
