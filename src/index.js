@@ -14,26 +14,30 @@ const validConceptualRulesRange = numbericRange(validRuleRangeMin, validRuleRang
 const ENCODING = 'utf8'
 
 const getRuleNumberInput = (frenchSet) => {
-  let conceptualRuleKey = undefined;
+  let conceptualRule = undefined;
   let confirmed = false;
 
   while (confirmed === false) {
-    if (conceptualRuleKey === undefined) {
-      conceptualRuleKey = readlineSync.question(
+    if (conceptualRule === undefined) {
+      let conceptualRuleKey = readlineSync.question(
       `choose a rule key between ${validRuleRangeMin} and ${validRuleRangeMax} for ${frenchSet[0]} ${frenchSet[1]}: `, 
       {
         limit: validConceptualRulesRange,
       })
 
-      conceptualRuleKey = parseInt(conceptualRuleKey, 10)
+      let proposedConceptualRule = ruleByKey(parseInt(conceptualRuleKey, 10))[0]
+      if (proposedConceptualRule !== undefined) {
+        conceptualRule = proposedConceptualRule
+      }
+      
     } else {
       confirmed = readlineSync.keyInYN('is this correct?')
       if (!confirmed) {
-        conceptualRuleKey = undefined;
+        conceptualRule = undefined;
         continue
       } else {
-        console.log('++++', ruleByKey(conceptualRuleKey)[0])
-        return ruleByKey(conceptualRuleKey)[0]
+        console.log('=====', conceptualRule)
+        return conceptualRule
       }
     }
   }
@@ -57,12 +61,11 @@ const frenchRecord = async (frenchSet) => {
   }
 
   if (gender < 2) {
-    genderRule = await frenchRuleSet(word, gender)
+    genderRule = frenchRuleSet(word, gender)
 
     
     if (genderRule === false) {
       genderRule = getRuleNumberInput(frenchSet).gender
-      // genderRule = rule.gender
     }
   }
 
