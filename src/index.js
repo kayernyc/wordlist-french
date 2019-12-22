@@ -13,42 +13,38 @@ const validConceptualRulesRange = numbericRange(validRuleRangeMin, validRuleRang
 
 const ENCODING = 'utf8'
 
-const validateRuleResponse = (conceptualRuleKey) => {
-  const rule = ruleByKey(conceptualRuleKey)[0];
-  let confirm = readlineSync.question('confirm? y/n ')
-  
-  if (confirm === 'y' || confirm === 'Y' || confirm === 'true') {
-    // return true;
-  }
-
-  // return false;
-}
-
 const getRuleNumberInput = (frenchSet) => {
-  console.log(frenchSet, 'No rule based on endings.')
   let conceptualRuleKey = undefined;
   let confirmed = false;
 
+  console.log(`${frenchSet[0]} ${frenchSet[1]}`)
+
   while (confirmed === false) {
-    console.log(`confirmed ${confirmed}`)
     if (conceptualRuleKey === undefined) {
-      conceptualRuleKey = readlineSync.questionInt([`choose a rule key between ${validRuleRangeMin} and ${validRuleRangeMax} `, validConceptualRulesRange])
+      conceptualRuleKey = readlineSync.question(
+      `choose a rule key between ${validRuleRangeMin} and ${validRuleRangeMax} `, 
+      {
+        limit: validConceptualRulesRange,
+      })
+
+      conceptualRuleKey = parseInt(conceptualRuleKey, 10)
     } else {
       confirmed = readlineSync.keyInYN('is this correct?')
-      conceptualRuleKey = undefined;
-      console.log(typeof confirmed, confirmed);
-    }
-
-    if (conceptualRuleKey !== undefined && confirmed) {
-      return true
+      if (!confirmed) {
+        conceptualRuleKey = undefined;
+        continue
+      } else {
+        console.log('++++', ruleByKey(conceptualRuleKey)[0])
+        return ruleByKey(conceptualRuleKey)[0]
+      }
     }
   }
 }
 
 const frenchRecord = async (frenchSet) => {
-  let gender = 0;
-  let genderRule = false;
-  let genderException = false;
+  let gender = 0
+  let genderRule = false
+  let genderException = false
   let word = false
 
   if (frenchSet.length > 1) {
@@ -58,41 +54,27 @@ const frenchRecord = async (frenchSet) => {
     }
 
   } else {
-    // throw error
+    // TODO: throw error
     return
   }
 
   if (gender < 2) {
-    genderRule = frenchRuleSet(word, gender)
+    genderRule = await frenchRuleSet(word, gender)
+
     
     if (genderRule === false) {
-
-      const conceptualRuleKey = getRuleNumberInput(frenchSet);
-
-      if (genderException === false) {         
-        if (validateRuleResponse(conceptualRuleKey)) {
-          console.log('do i get here 2')
-          genderRule = rule.key;
-          console.log('do i get here 3')
-          genderException = rule.gender === gender ? true : false;
-          console.log('do i get here')
-          const value = `"french": "${word}", "gender" : "${gender}", "genderRule" : "${genderRule}", "exception" : "${genderException}"\n`
-          console.log(value)
-          // return value
-        }
-      } else {
-        console.log('conceptual rule key', conceptualRuleKey)
-        
-      }
-    } 
-  } else {
-    return `"french": "${word}", "gender" : "${gender}", "genderRule" : "${genderRule}", "exception" : "${genderException}"\n`
+      genderRule = getRuleNumberInput(frenchSet).gender
+      // genderRule = rule.gender
+    }
   }
+
+  genderException = genderRule.gender === gender ? true : false
+
+  return `"french": "${word}", "gender" : "${gender}", "genderRule" : "${genderRule}", "exception" : "${genderException}"\n`
 }
 
 const parseLine = async line => {
   const processedArray = line
-    .substr(line.indexOf(' ') + 1)
     .split('-')
 
   if (processedArray[1] !== undefined) {
@@ -109,10 +91,8 @@ const convertDataChunk = async (chunk) => {
   return Promise.all(chunk.toString()
     .split(/\r?\n/)
     .map(async line => {
-      console.log(line)
-      let dude =  await parseLine(line)
-      console.log('line await')
-      return dude
+      let parsedLine =  await parseLine(line)
+      return parsedLine
     })
     .catch(err => {
       console.warn(`in here ${err}`)
@@ -141,7 +121,6 @@ const transform = new Transform({transform(chunk, _, callback) {
       callback();
     })
     .catch(err => {
-      console.warn('am i handled?')
       callback();
     });
 }});
@@ -158,22 +137,21 @@ function readStreamPromise (stream, encoding = ENCODING) {
   });
 }
 
+const writeDest = (data) => {
+  fs.createWriteStream('text/frenchList.txt', ENCODING)
+    .write(data)
+    .end()
+
+}
+
 // Read file
 async function readFile(url = 'text/wordlist.txt') {
-  const foobar = fs
+  fs
     .createReadStream(url)
     .pipe(transform)
-  /*
-  fs
-    .createReadStream('./wordlist.txt')
-    .pipe(transform)
-    .pipe(dest);
-  */
+    //.pipe(writeDest)
 
-  const text = await readStreamPromise(foobar);
-  // send to next function
-
-  // console.log(`text - ${text}`)
+  // const text = await readStreamPromise(processListFile);
 }
 
 readFile()
