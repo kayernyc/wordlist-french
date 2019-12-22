@@ -17,12 +17,10 @@ const getRuleNumberInput = (frenchSet) => {
   let conceptualRuleKey = undefined;
   let confirmed = false;
 
-  console.log(`${frenchSet[0]} ${frenchSet[1]}`)
-
   while (confirmed === false) {
     if (conceptualRuleKey === undefined) {
       conceptualRuleKey = readlineSync.question(
-      `choose a rule key between ${validRuleRangeMin} and ${validRuleRangeMax} `, 
+      `choose a rule key between ${validRuleRangeMin} and ${validRuleRangeMax} for ${frenchSet[0]} ${frenchSet[1]}: `, 
       {
         limit: validConceptualRulesRange,
       })
