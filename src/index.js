@@ -62,10 +62,14 @@ const frenchRecord = async (frenchSet) => {
 
   if (gender < 2) {
     genderRule = frenchRuleSet(word, gender)
-
     
     if (genderRule === false) {
-      genderRule = getRuleNumberInput(frenchSet).gender
+      try {
+        genderRule = await getRuleNumberInput(frenchSet).gender
+      } catch (err) {
+        throw new Error(`error: ${err} from ${frenchSet}`)
+      }
+      
     }
   }
 
@@ -79,9 +83,12 @@ const parseLine = async line => {
     .split('-')
 
   if (processedArray[1] !== undefined) {
-    const frenchString = await frenchRecord(processedArray[1].trim().split(' '))
-    return Promise.resolve(frenchString);
-
+    try {
+      const frenchString = await frenchRecord(processedArray[1].trim().split(' '))
+      return Promise.resolve(frenchString);
+    } catch (error) {
+      throw error
+    }
   } else {
     throw new Error(`NO FRENCH VALUE: ${processedArray}`);
   }
@@ -92,15 +99,12 @@ const convertDataChunk = async (chunk) => {
   return Promise.all(chunk.toString()
     .split(/\r?\n/)
     .map(async line => {
-      let parsedLine =  await parseLine(line)
-      return parsedLine
-    })
-    .catch(err => {
-      console.warn(`in here ${err}`)
-    })
-    .then(data => data)
-    .catch(err => {
-      console.warn(`in there ${err}`)
+      try {
+        let parsedLine =  await parseLine(line)
+        return parsedLine
+      } catch (err) {
+        throw new Error(`line ${line}`)
+      }
     })
   );
 }
@@ -113,46 +117,26 @@ const transform = new Transform({transform(chunk, _, callback) {
       
       data.forEach(line => {
         if (line.length > 0) {
-          console.log('--', line)
           file += line
         }
       })
 
       this.push(file)
-      callback();
+      callback(null, file);
     })
     .catch(err => {
-      callback();
+      callback(err, null);
     });
 }});
 
-function readStreamPromise (stream, encoding = ENCODING) {
-  stream.setEncoding(encoding);
-
-  return new Promise((resolve, reject) => {
-    let data = '';
-
-    stream.on('data', chunk => data += chunk);
-    stream.on('end', () => resolve(data));
-    stream.on('error', error => reject(error));
-  });
-}
-
-const writeDest = (data) => {
-  fs.createWriteStream('text/frenchList.txt', ENCODING)
-    .write(data)
-    .end()
-
-}
+const writeDest = fs.createWriteStream('text/french-nouns.txt')
 
 // Read file
 async function readFile(url = 'text/wordlist.txt') {
-  fs
+  let data = fs
     .createReadStream(url)
     .pipe(transform)
-    //.pipe(writeDest)
-
-  // const text = await readStreamPromise(processListFile);
+    .pipe(writeDest)
 }
 
 readFile()
