@@ -5,13 +5,10 @@ const { Transform } = require('stream')
 const readlineSync = require('readline-sync')
 
 const { conceptualPatternsKeyRange, frenchRuleSet, ruleByKey } = require('./rules')
-
 const {min: validRuleRangeMin, max: validRuleRangeMax} = conceptualPatternsKeyRange()
 
 const numbericRange = (start, end, length = end - start) => Array.from({length}, (_, i) => start + i)
 const validConceptualRulesRange = numbericRange(validRuleRangeMin, validRuleRangeMax  + 1)
-
-const ENCODING = 'utf8'
 
 const getRuleNumberInput = (frenchSet) => {
   let conceptualRule = undefined;
@@ -36,7 +33,6 @@ const getRuleNumberInput = (frenchSet) => {
         conceptualRule = undefined;
         continue
       } else {
-        console.log('=====', conceptualRule)
         return conceptualRule
       }
     }
@@ -56,7 +52,7 @@ const frenchRecord = async (frenchSet) => {
     }
 
   } else {
-    // TODO: throw error
+    // TODO: better error handling
     return
   }
 
@@ -67,9 +63,8 @@ const frenchRecord = async (frenchSet) => {
       try {
         genderRule = await getRuleNumberInput(frenchSet).gender
       } catch (err) {
-        throw new Error(`error: ${err} from ${frenchSet}`)
+        throw new Error(`${err} from ${frenchSet}`)
       }
-      
     }
   }
 
@@ -133,7 +128,7 @@ const writeDest = fs.createWriteStream('text/french-nouns.txt')
 
 // Read file
 async function readFile(url = 'text/wordlist.txt') {
-  let data = fs
+  fs
     .createReadStream(url)
     .pipe(transform)
     .pipe(writeDest)
