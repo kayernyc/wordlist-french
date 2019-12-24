@@ -5,37 +5,35 @@ const { Transform } = require('stream')
 const readlineSync = require('readline-sync')
 
 const { conceptualPatternsKeyRange, frenchRuleSet, ruleByKey } = require('./rules')
-
 const {min: validRuleRangeMin, max: validRuleRangeMax} = conceptualPatternsKeyRange()
 
 const numbericRange = (start, end, length = end - start) => Array.from({length}, (_, i) => start + i)
 const validConceptualRulesRange = numbericRange(validRuleRangeMin, validRuleRangeMax  + 1)
 
-const ENCODING = 'utf8'
-
 const getRuleNumberInput = (frenchSet) => {
-  let conceptualRuleKey = undefined;
+  let conceptualRule = undefined;
   let confirmed = false;
 
-  console.log(`${frenchSet[0]} ${frenchSet[1]}`)
-
   while (confirmed === false) {
-    if (conceptualRuleKey === undefined) {
-      conceptualRuleKey = readlineSync.question(
-      `choose a rule key between ${validRuleRangeMin} and ${validRuleRangeMax} `, 
+    if (conceptualRule === undefined) {
+      let conceptualRuleKey = readlineSync.question(
+      `choose a rule key between ${validRuleRangeMin} and ${validRuleRangeMax} for ${frenchSet[0]} ${frenchSet[1]}: `, 
       {
         limit: validConceptualRulesRange,
       })
 
-      conceptualRuleKey = parseInt(conceptualRuleKey, 10)
+      let proposedConceptualRule = ruleByKey(parseInt(conceptualRuleKey, 10))[0]
+      if (proposedConceptualRule !== undefined) {
+        conceptualRule = proposedConceptualRule
+      }
+      
     } else {
       confirmed = readlineSync.keyInYN('is this correct?')
       if (!confirmed) {
-        conceptualRuleKey = undefined;
+        conceptualRule = undefined;
         continue
       } else {
-        console.log('++++', ruleByKey(conceptualRuleKey)[0])
-        return ruleByKey(conceptualRuleKey)[0]
+        return conceptualRule
       }
     }
   }
@@ -54,17 +52,19 @@ const frenchRecord = async (frenchSet) => {
     }
 
   } else {
-    // TODO: throw error
+    // TODO: better error handling
     return
   }
 
   if (gender < 2) {
-    genderRule = await frenchRuleSet(word, gender)
-
+    genderRule = frenchRuleSet(word, gender)
     
     if (genderRule === false) {
-      genderRule = getRuleNumberInput(frenchSet).gender
-      // genderRule = rule.gender
+      try {
+        genderRule = await getRuleNumberInput(frenchSet).gender
+      } catch (err) {
+        throw new Error(`${err} from ${frenchSet}`)
+      }
     }
   }
 
@@ -78,9 +78,12 @@ const parseLine = async line => {
     .split('-')
 
   if (processedArray[1] !== undefined) {
-    const frenchString = await frenchRecord(processedArray[1].trim().split(' '))
-    return Promise.resolve(frenchString);
-
+    try {
+      const frenchString = await frenchRecord(processedArray[1].trim().split(' '))
+      return Promise.resolve(frenchString);
+    } catch (error) {
+      throw error
+    }
   } else {
     throw new Error(`NO FRENCH VALUE: ${processedArray}`);
   }
@@ -91,15 +94,12 @@ const convertDataChunk = async (chunk) => {
   return Promise.all(chunk.toString()
     .split(/\r?\n/)
     .map(async line => {
-      let parsedLine =  await parseLine(line)
-      return parsedLine
-    })
-    .catch(err => {
-      console.warn(`in here ${err}`)
-    })
-    .then(data => data)
-    .catch(err => {
-      console.warn(`in there ${err}`)
+      try {
+        let parsedLine =  await parseLine(line)
+        return parsedLine
+      } catch (err) {
+        throw new Error(`line ${line}`)
+      }
     })
   );
 }
@@ -112,46 +112,26 @@ const transform = new Transform({transform(chunk, _, callback) {
       
       data.forEach(line => {
         if (line.length > 0) {
-          console.log('--', line)
           file += line
         }
       })
 
       this.push(file)
-      callback();
+      callback(null, file);
     })
     .catch(err => {
-      callback();
+      callback(err, null);
     });
 }});
 
-function readStreamPromise (stream, encoding = ENCODING) {
-  stream.setEncoding(encoding);
-
-  return new Promise((resolve, reject) => {
-    let data = '';
-
-    stream.on('data', chunk => data += chunk);
-    stream.on('end', () => resolve(data));
-    stream.on('error', error => reject(error));
-  });
-}
-
-const writeDest = (data) => {
-  fs.createWriteStream('text/frenchList.txt', ENCODING)
-    .write(data)
-    .end()
-
-}
+const writeDest = fs.createWriteStream('text/french-nouns.txt')
 
 // Read file
 async function readFile(url = 'text/wordlist.txt') {
   fs
     .createReadStream(url)
     .pipe(transform)
-    //.pipe(writeDest)
-
-  // const text = await readStreamPromise(processListFile);
+    .pipe(writeDest)
 }
 
 readFile()
