@@ -2124,3 +2124,4 @@ jeep - une jeep
 beef - un bœuf
 bro - un frérot
 cowboy boot - une santiag
+ante - la mise

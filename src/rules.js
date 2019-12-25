@@ -13,17 +13,17 @@ const ruleByKey = (key) => {
         || underfined;
 }
 
-const frenchRuleSet = (frenchWord, gender) => {
+const frenchRuleSet = (frenchWord, gender) => { // returns the rule
   const matchesConceptRule = (frenchWord, ruleObj) => ruleObj.matches.includes(frenchWord);
   const matchesEnding = (frenchWord, ruleObj) => frenchWord.endsWith(ruleObj.rule);
 
-  const ruleMatch = (ruleSetFunction, ruleSet) => { // return tuple
+  const ruleMatch = (ruleSetFunction, ruleSet) => { // return rule object
     
     for (var i = 0; i < ruleSet.length; i ++) {
       const ruleObj = ruleSet[i];
 
       if ( ruleSetFunction(frenchWord, ruleObj)) {
-        return [ruleObj.key,  (gender === ruleObj.gender)]
+        return ruleObj
       }
     }
   
