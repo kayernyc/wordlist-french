@@ -76,7 +76,7 @@ const frenchRecord = async (frenchSet) => {
 
 const parseLine = async line => {
   const processedArray = line
-    .split('-')
+    .split(':')
 
   if (processedArray[1] !== undefined) {
     try {
