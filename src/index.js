@@ -41,7 +41,7 @@ const getRuleNumberInput = (frenchSet) => {
 
 const frenchRecord = async (frenchSet) => {
   let gender = 0
-  let genderRule = false
+  let genderRule
   let genderException = false
   let word = false
 
@@ -61,7 +61,7 @@ const frenchRecord = async (frenchSet) => {
     
     if (genderRule === false) {
       try {
-        genderRule = await getRuleNumberInput(frenchSet).gender
+        genderRule = await getRuleNumberInput(frenchSet)
       } catch (err) {
         throw new Error(`${err} from ${frenchSet}`)
       }
@@ -70,12 +70,12 @@ const frenchRecord = async (frenchSet) => {
 
   genderException = genderRule.gender === gender ? true : false
 
-  return `"french": "${word}", "gender" : "${gender}", "genderRule" : "${genderRule}", "exception" : "${genderException}"\n`
+  return `"french": "${word}", "gender" : "${gender}", "genderKey" : "${genderRule.key}", "exception" : "${genderException}"\n`
 }
 
 const parseLine = async line => {
   const processedArray = line
-    .split('-')
+    .split(':')
 
   if (processedArray[1] !== undefined) {
     try {

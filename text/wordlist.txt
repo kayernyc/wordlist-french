@@ -1,2126 +1,2162 @@
-people -le peuple
-time -le temps
-year -une année
-thing -la chose
-way -le chemin
-day -le jour
-man -un homme
-state -un état
-lot -le lot
-woman -la femme
-country -le pays
-life -la vie
-question -la question
-president -le président
-child -un enfant
-week -la semaine
-world -un monde
-kind -le genre
-case -le cas
-problem -le problème
-fact -le fait
-family -la famille
-point -le point
-government -le gouvernement
-money -un argent
-issue -la question
-part -la partie
-morning -Le matin
-guy -le gars
-number -le nombre
-job -le travail
-night -la nuit
-right -le droit
-school -une école
-place -le lieu
-war -la guerre
-month -le mois
-book -le livre
-hour -une heure
-show -le spectacle
-police -la police
-program -le programme
-party -la partie
-law -la loi
-word -le mot
-person -la personne
-home -la maison
-business -une entreprise
-friend -un ami
-company -une entreprise
-side -le côté
-tax -la taxe
-democrat -le démocrate
-group -le groupe
-break -la pause
-idea -une idée
-member -le membre
-system -le système
-minute -la minute
-reason -la raison
-campaign -la campagne
-work -un oeuvre
-nation -la nation
-congress -le congrès
-mother -la mère
-force -la force
-health -la santé
-back -un arrière
-area -la zone
-name -le nom
-report -le rapport
-hand -la main
-line -la ligne
-end -la fin
-court -le tribunal
-care -les soins
-couple -le couple
-house -la maison
-american -un américain
-father -le père
-situation -la situation
-car -la voiture
-parent -le parent
-administration -une administration
-drug -le médicament
-city -la ville
-sense -le sens
-policy -la politique
-office -le bureau
-decision -la décision
-power -la puissance
-plan -le plan
-leader -le leader
-information -les informations
-election -une élection
-movie -le film
-death -la mort
-air -un air
-call -un appel
-community -la communauté
-look -le look
-evidence -la preuve
-girl -la jeune fille
-doctor -le médecin
-vote -le vote
-video -la vidéo
-picture -une image
-room -la chambre
-bit -le bit
-economy -une économie
-phone -le téléphone
-history -une histoire
-boy -le garçon
-crime -le crime
-process -le processus
-wife -un épouse
-music -la musique
-water -une eau
-service -le service
-record -le dossier
-security -la sécurité
-talk -le discours
-mind -un esprit
-head -la tête
-candidate -le candidat
-official -le fonctionnaire
-camera -un appareil photo
-student -un étudiant
-attack -une attaque
-chance -la chance
-game -le jeu
-baby -le bébé
-south -le sud
-change -le changement
-trial -le procès
-body -le corps
-market -le marché
-stuff -une étoffe
-interest -un intérêt
-weapon -une arme
-heart -le cœur
-son -le fils
-team -une équipe
-town -la ville
-television -la télévision
-will -la volonté
-troop -la troupe
-judge -le juge
-action -une action
-answer -la réponse
-position -la position
-view -la vue
-difference -la différence
-food -la nourriture
-daughter -la fille
-race -la course
-deal -un accord
-street -la rue
-price -le prix
-message -le message
-control -le contrôle
-debate -le débat
-officer -un agent
-film -le film
-level -le niveau
-effort -un effort
-relationship -la relation
-correspondent -le correspondant
-ground -le sol
-piece -la pièce
-husband -le mari
-budget -le budget
-jury -le jury
-reporter -le journaliste
-weekend -le week-end
-matter -la matière
-age -un âge
-gun -le pistolet
-peace -la paix
-murder -un assassiner
-role -le rôle
-investigation -une enquête
-experience -une expérience
-hospital -un hôpital
-eye -un oeil
-director -le directeur
-future -un avenir
-face -le visage
-oil -une huile
-result -le résultat
-public -le public
-lawyer -un avocat
-poll -le scrutin
-second -la seconde
-opportunity -la possibilité
-industry -une industrie
-brother -le frère
-statement -la déclaration
-fire -le feu
-love -un amour
-rate -le taux
-effect -un effet
-song -la chanson
-event -un événement
-charge -la charge
-support -le support
-radio -la radio
-building -un bâtiment
-bank -la banque
-victim -la victime
-door -la porte
-interview -une interview
-scene -la scène
-rest -le reste
-press -la presse
-attention -une attention
-choice -le choix
-speech -le discours
-patient -le patient
-truth -la vérité
-road -la route
-term -le terme
-site -le site
-worker -le travailleur
-professor -le professeur
-letter -la lettre
-reform -la réforme
-concern -la préoccupation
-folk -les gens
-study -une étude
-college -le collège
-voter -un électeur
-wall -le mur
-evening -le soir
-meeting -la réunion
-voice -la voix
-audience -une auditoire
-violence -la violence
-rule -la règle
-star -une étoile
-test -le test
-education -une éducation
-trouble -la peine
-risk -le risque
-prison -la prison
-guest -un invité
-class -la classe
-society -de la société
-soldier -le soldat
-plane -le plan
-amount -la quantité
-help -un aide
-cost -le coût
-authority -une autorité
-foot -le pied
-period -la période
-feeling -le sentiment
-step -une étape
-cause -la cause
-tape -la bande
-threat -la menace
-opinion -une opinion
-organization -une organisation
-type -le type
-conversation -la conversation
-disease -la maladie
-operation -une opération
-cancer -le cancer
-magazine -le magazine
-governor -le gouverneur
-pressure -la pression
-majority -la majorité
-research -la recherche
-character -le caractère
-station -la station
-crisis -la crise
-expert -un expert
-blood -le sang
-chairman -le président
-argument -un argument
-list -la liste
-dog -le chien
-computer -un ordinateur
-insurance -une assurance
-field -le domaine
-sister -la sœur
-mistake -une erreur
-player -le joueur
-energy -une énergie
-paper -le papier
-space -un espace
-store -la boutique
-responsibility -la responsabilité
-lady -la dame
-order -un ordre
-summer -un été
-product -le produit
-value -la valeur
-stock -le stock
-intelligence -une intelligence
-teacher -un enseignant
-agency -une agence
-trade -le commerce
-conference -la conférence
-cell -la cellule
-church -une église
-comment -le commentaire
-source -la source
-past -le passé
-cut -la coupe
-thought -la pensée
-credit -le crédit
-hope -un espoir
-sign -le signe
-career -de la carrière
-marriage -le mariage
-condition -la condition
-witness -le témoin
-technology -la technologie
-stage -la scène
-staff -le personnel
-arm -le bras
-mission -la mission
-art -un art
-actor -un acteur
-battle -la bataille
-top -le haut
-citizen -le citoyen
-author -un auteur
-reaction -la réaction
-gentleman -le monsieur
-leadership -la direction
-fear -la peur
-example -un exemple
-language -la langue
-need -la nécessité
-justice -la justice
-discussion -la discussion
-border -la frontière
-animal -un animal
-detail -un détail
-response -la réaction
-network -le réseau
-movement -le mouvement
-use -une utilisation
-male -le mâle
-capital -la capitale
-hearing -une audience
-standard -la norme
-benefit -un avantage
-table -la table
-treatment -le traitement
-agent -un agent
-card -la carte
-shot -le tir
-board -le conseil
-reality -la réalité
-sir -le monsieur
-land -la terre
-project -le projet
-light -la lumière
-image -une image
-century -un siècle
-page -la page
-success -le succès
-sound -le son
-impact -un impact
-pain -la douleur
-season -la saison
-individual -un individu
-sport -le sport
-studio -le studio
-decade -la décennie
-challenge -le défi
-dream -le rêve
-newspaper -le journal
-floor -le plancher
-fight -la lutte
-safety -la sécurité
-act -un acte
-trip -le voyage
-course -un cours
-possibility -la possibilité
-freedom -la liberté
-fund -le fonds
-seat -le siège
-bomb -la bombe
-form -la forme
-executive -un exécutif
-minister -le ministre
-deficit -le déficit
-development -le développement
-flight -le vol
-secretary -le secrétaire
-committee -le comité
-consumer -le consommateur
-rock -la roche
-figure -la figure
-subject -un objet
-culture -la culture
-hair -les cheveux
-coverage -la couverture
-loss -la perte
-dad -le papa
-note -la note
-activity -une activité
-goal -un objectif
-option -une option
-gas -le gaz
-region -la région
-population -la population
-ability -la capacité
-resolution -la résolution
-employee -un employé
-brain -le cerveau
-politician -le politicien
-middle -le milieu
-storm -la tempête
-generation -la génération
-critic -le critique
-fan -le ventilateur
-scientist -le scientifique
-target -la cible
-camp -le camp
-afternoon -un après-midi
-direction -la direction
-science -une science
-journalist -le journaliste
-degree -le degré
-affair -un affaire
-damage -les dommages
-strategy -la stratégie
-factor -le facteur
-plant -une usine
-democracy -la démocratie
-doubt -du doute
-solution -la solution
-spending -les dépenses
-training -la formation
-abuse -un abus
-danger -le danger
-environment -un environnement
-memory -la mémoire
-nature -la nature
-material -le matériau
-document -le document
-income -le revenu
-analyst -un analyste
-play -le jeu
-guard -la garde
-hotel -un hôtel
-editor -un éditeur
-missile -le missile
-accident -un accident
-purpose -le but
-writer -un écrivain
-emergency -la situation d'urgence
-growth -la croissance
-bed -le lit
-welfare -le bien-être
-adult -un adulte
-faith -la foi
-proposal -la proposition
-model -le modèle
-army -une armée
-incident -un incident
-box -la boîte
-crowd -la foule
-respect -le respect
-department -le département
-access -un accès
-date -la date
-chief -le chef
-weather -le temps
-airport -un aéroport
-machine -la machine
-window -la fenêtre
-agenda -un ordre du jour
-advice -les conseils
-prosecution -la poursuite
-conflict -le conflit
-fall -la chute
-pilot -le pilote
-practice -la pratique
-track -la piste
-owner -le propriétaire
-increase -une augmentation
-legislation -la législation
-tree -un arbre
-debt -la dette
-enemy -un ennemi
-truck -le camion
-lead -la tête
-convention -la convention
-aid -un aide
-suicide -le suicide
-quality -la qualité
-conservative -le conservateur
-size -la taille
-account -le compte
-pleasure -le plaisir
-institution -une institution
-airline -la compagnie aérienne
-weight -le poids
-approach -une approche
-surgery -la chirurgie
-holiday -la fête
-start -le début
-victory -la victoire
-district -le quartier
-relation -la relation
-search -la recherche
-crew -un équipage
-panel -le panneau
-coalition -la coalition
-move -le déménagement
-package -un emballage
-check -le chèque
-minority -la minorité
-unit -une unité
-bag -le sac
-surprise -la surprise
-focus -la mise au point
-circumstance -la circonstance
-producer -le producteur
-investment -un investissement
-ball -la balle
-colleague -un collègue
-resource -la ressource
-judgment -le jugement
-background -un arrière-plan
-union -une union
-address -une adresse
-driver -le conducteur
-hero -le héros
-medicine -la médecine
-representative -le représentant
-vehicle -le véhicule
-commander -le commandant
-artist -un artiste
-mayor -le maire
-run -la course
-ship -le navire
-theory -la théorie
-screen -un écran
-lesson -la leçon
-resident -le résident
-partner -le partenaire
-bar -la barre
-ticket -le billet
-disaster -la catastrophe
-performance -la performance
-supporter -un supporter
-killer -le tueur
-negotiation -la négociation
-sea -la mer
-wind -le vent
-shoe -la chaussure
-secret -le secret
-tragedy -la tragédie
-gift -le don
-tour -la tournée
-manager -le gestionnaire
-band -la bande
-birth -la naissance
-host -un hôte
-loan -le prêt
-allegation -une allégation
-winner -le gagnant
-religion -la religion
-article -un article
-session -la session
-being -un être
-extent -la mesure
-contract -le contrat
-sentence -la phrase
-measure -la mesure
-deputy -le vice-
-confidence -la confiance
-hell -un enfer
-relief -le relief
-perspective -la perspective
-advantage -un avantage
-scandal -le scandale
-leg -la jambe
-restaurant -le restaurant
-dinner -un dîner
-client -le client
-failure -un échec
-quarter -le trimestre
-element -un élément
-claim -la demande
-property -la propriété
-version -la version
-attempt -la tentative
-bus -le bus
-customer -le client
-pound -la livre
-protection -la protection
-gene -le gène
-stone -la pierre
-opposition -une opposition
-apartment -un appartement
-front -un avant
-female -la femelle
-prisoner -le prisonnier
-black -un noir
-gang -le gang
-principle -le principe
-ally -un allié
-adviser -le conseiller
-visit -la visite
-bird -un oiseau
-stand -le support
-communication -la communication
-boat -le bateau
-connection -la connexion
-key -la clé
-strike -la grève
-penalty -la peine
-warning -un avertissement
-luck -La chance
-turn -le tour
-facility -une installation
-teenager -un adolescent
-commitment -un engagement
-procedure -la procédure
-half -la moitié
-tank -le réservoir
-telephone -le téléphone
-supply -une offre
-attitude -une attitude
-block -le bloc
-bond -le lien
-style -le style
-football -le foot
-fuel -le carburant
-data -les données
-glass -le verre
-suit -le costume
-strength -la force
-criticism -la critique
-ice -la glace
-equipment -un équipement
-promise -la promesse
-return -le retour
-album -un album
-production -la production
-corner -le coin
-consequence -la conséquence
-living -les vivants
-injury -la blessure
-cover -le couvercle
-breast -la poitrine
-spring -un printemps
-controversy -la controverse
-destruction -la destruction
-aspect -un aspect
-club -le club
-aircraft -un avion
-regime -le régime
-competition -la compétition
-profit -le bénéfice
-knowledge -la connaissance
-spokesman -le porte-parole
-understanding -la compréhension
-recession -la récession
-singer -le chanteur
-village -le village
-arrest -une arrestation
-snow -la neige
-joke -la blague
-gold -un or
-contact -le contact
-demand -la demande
-task -la tâche
-hole -le trou
-general -le grand
-skin -la peau
-count -le décompte
-opponent -un adversaire
-conclusion -la conclusion
-priority -la priorité
-rape -un viol
-refugee -le réfugié
-mountain -la montagne
-summit -le sommet
-bottom -le fond
-management -la gestion
-commission -la commission
-range -la gamme
-code -le code
-cash -un argent
-mouth -la bouche
-presence -la présence
-share -la part
-fashion -la mode
-shape -la forme
-chair -Le président
-finger -le doigt
-fish -le poisson
-edition -une édition
-edge -le bord
-limit -la limite
-train -le train
-belief -la croyance
-balance -un équilibre
-exchange -un échange
-farm -la ferme
-zone -la zone
-passenger -le passager
-lie -le mensonge
-duty -le devoir
-traffic -le trafic
-horse -le cheval
-tradition -la tradition
-recovery -la récupération
-inspector -un inspecteur
-difficulty -la difficulté
-file -le fichier
-birthday -un anniversaire
-finance - la finance
-crash -le crash
-influence -une influence
-regulation -la réglementation
-analysis -une analyse
-struggle -la lutte
-heat -la chaleur
-dress -la robe
-release -la libération
-winter -un hiver
-virus -le virus
-theme -le thème
-notion -la notion
-device -le dispositif
-anger -la colère
-english -les Anglais
-flag -le drapeau
-context -le contexte
-wing -une aile
-fighting -les combats
-pattern -le motif
-entertainment -une animation
-appearance -une apparence
-investor -un investisseur
-bridge -le pont
-settlement -le règlement
-rain -la pluie
-wood -le bois
-mail -un e-mail
-farmer -un agriculteur
-mystery -le mystère
-prayer -la prière
-vision -la vision
-depression -la dépression
-explosion -une explosion
-defendant -le défendeur
-structure -la structure
-amendment -un amendement
-assault -un assaut
-thinking -la réflexion
-therapy -la thérapie
-nurse -une infirmière
-path -le trajet
-funding -le financement
-tool -un outil
-title -le titre
-housing -le boîtier
-shop -la boutique
-complaint -la plainte
-wave -la vague
-cat -le chat
-map -la carte
-employer -un employeur
-proof -la preuve
-emotion -une émotion
-skill -la compétence
-trust -la confiance
-topic -le sujet
-personality -la personnalité
-hall -la salle
-cabinet -une armoire
-bone -un os
-soul -une âme
-chicken -le poulet
-location -un emplacement
-indication -une indication
-speaker -le haut-parleur
-wage -le salaire
-era -une ère
-request -la demande
-boss -le patron
-coach -un entraîneur
-estate -la succession
-sector -le secteur
-egg -un œuf
-stake -un enjeu
-stop -la butée
-ring -un anneau
-shock -le choc
-contribution -la contribution
-announcement -une annonce
-cigarette -la cigarette
-kitchen -la cuisine
-territory -le territoire
-command -la commande
-island -une île
-protest -la protestation
-impression -une impression
-fault -la faute
-coast -la côte
-reading -de la lecture
-variety -la variété
-revenue -les recettes
-bell -la cloche
-coffee -le café
-alcohol -un alcool
-lunch -le déjeuner
-expectation -une attente
-grade -la note
-diet -une alimentation
-section -la section
-ear -une oreille
-sky -le ciel
-signal -le signal
-stress -la contrainte
-researcher -le chercheur
-cable -le câble
-opening -une ouverture
-beach -la plage
-volunteer -le volontaire
-burden -la charge
-detective -le détective
-toy -un jouet
-gain -le gain
-asset -un actif
-pool -la piscine
-trend -la tendance
-survey -une enquête
-planet -la planète
-river -la rivière
-identity -une identité
-ocean -un océan
-joy -la joie
-delay -le retard
-clinic -la clinique
-yard -la cour
-tip -la pointe
-divorce -le divorce
-sun -le soleil
-row -la ligne
-phrase -la phrase
-worth -la valeur
-collection -la collection
-occasion -une occasion
-surface -la surface
-tie -la cravate
-musician -le musicien
-concept -le concept
-tension -la tension
-outcome -le résultat
-approval -une approbation
-fellow -le boursier
-beauty -la beauté
-casualty -la victime
-copy -la copie
-mine -la mine
-watch -la montre
-sleep -un sommeil
-average -la moyenne
-travel -le Voyage
-fraud -la fraude
-category -la catégorie
-exercise -un exercice
-conviction -la conviction
-initiative -une initiative
-technique -la technique
-recording -un enregistrement
-sight -la vue
-reduction -la réduction
-whole -un ensemble
-corporation -la société
-passion -la passion
-funeral -les funérailles
-youth -les jeunes
-instrument -un instrument
-distance -la distance
-desert -le désert
-writing -une écriture
-invasion -une invasion
-compromise -le compromis
-illness -la maladie
-tear -la déchirure
-gate -la porte
-forest -la forêt
-experiment -une expérience
-golf -le parcours
-talent -le talent
-post -le poste
-gap -un écart
-priest -le prêtre
-novel -le roman
-division -la division
-desire -le désir
-hat -le chapeau
-mortgage -une hypothèque
-reputation -la réputation
-score -le score
-shoulder -une épaule
-relative -le parent
-column -la colonne
-payment -le paiement
-transition -la transition
-award -le prix
-capability -la capacité
-definition -la définition
-pocket -la poche
-speed -la vitesse
-concert -le concert
-climate -le climat
-clue -un indice
-beer -la bière
-nose -le nez
-green -le vert
-garden -le jardin
-satellite -le satellite
-ceremony -la cérémonie
-human -un humain
-discovery -la découverte
-ride -le trajet
-root -la racine
-tea -le thé
-motion -le mouvement
-percentage -le pourcentage
-combination -la combinaison
-explanation -une explication
-scale -une échelle
-chain -la chaîne
-twin -le jumeau
-capacity -la capacité
-dealer -le concessionnaire
-journey -le voyage
-delegate -le délégué
-link -le lien
-plastic -la matière plastique
-stimulus -le stimulus
-cap -le bouchon
-roll -le rouleau
-construction -la construction
-intention -une intention
-dispute -le différend
-mood -une humeur
-design -la conception
-childhood -une enfance
-engine -le moteur
-lifetime -la durée de vie
-nightmare -le cauchemar
-dance -la danse
-meal -le repas
-obligation -une obligation
-advance -une avance
-tourist -le touriste
-fat -la graisse
-salt -le sel
-neck -le cou
-bedroom -la chambre à coucher
-episode -un épisode
-engineer -un ingénieur
-punishment -la punition
-testing -les tests
-instance -une instance
-prospect -la perspective
-shopping -les courses
-smoke -la fumée
-meat -la viande
-hold - la cale
-retirement - la retraite
-inflation -une inflation
-drama -le drame
-desk -le bureau
-salary -le salaire
-bible -la bible
-grant -la subvention
-demonstration -la démonstration
-dialogue -le dialogue
-substance -la substance
-core -le noyau
-treaty -le traité
-personnel -le personnel
-sample -un échantillon
-tactic -la tactique
-method -le procédé
-noise -le bruit
-objective -un objectif
-flower -la fleur
-cup -la tasse
-temperature -la température
-symbol -le symbole
-revolution -la révolution
-taste -le goût
-museum -le musée
-profile -le profil
-suggestion -la suggestion
-route -un itinéraire
-tooth -la dent
-consultant -le consultant
-drive -le lecteur
-disorder -le trouble
-sugar -le sucre
-rise -la hausse
-chip -la puce
-motive -le motif
-shirt -la chemise
-port -le port
-potential -le potentiel
-schedule -le calendrier
-parliament -le parlement
-contest -le concours
-atmosphere -une atmosphère
-branch -la branche
-estimate -une estimation
-symptom -le symptôme
-involvement -la participation
-discrimination -la discrimination
-walk -la promenade
-operator -un opérateur
-recommendation -la recommandation
-rebel -le rebelle
-round -la ronde
-maker -le fabricant
-wine -le vin
-remark -la remarque
-mess -le désordre
-tone -le ton
-resistance -la résistance
-importance -une importance
-exception -une exception
-platform -la plate-forme
-knife -le couteau
-perception -la perception
-fee -la taxe
-master -le maître
-circle -le cercle
-manner -la manière
-jet -le jet
-meaning -la signification
-assessment -une évaluation
-plate -la plaque
-expense -un dépens
-plot -une intrigue
-classroom -la salle de classe
-brand -la marque
-painting -la peinture
-roof -le toit
-privilege -le privilège
-drink -la boisson
-ban -une interdiction
-content -le contenu
-chemical -le produit chimique
-french -le français
-inspection -une inspection
-incentive -une incitation
-piano -le piano
-bottle -la bouteille
-waste -les déchets
-label -une étiquette
-clock -une horloge
-cream -la crème
-good -les bons
-phase -la phase
-philosophy -la philosophie
-conduct -la conduite
-cycle -le cycle
-electricity -une électricité
-bishop -un évêque
-reader -le lecteur
-pregnancy -la grossesse
-league -la ligue
-pet -un animal
-foundation -la fondation
-boom -le boom
-tower -la tour
-feature -la fonction
-withdrawal -le retrait
-breath -le souffle
-crack -la fissure
-manufacturer -le fabricant
-specialist -le spécialiste
-reference -la référence
-provision -la fourniture
-historian -un historien
-wire -le fil
-speculation -la spéculation
-pair -la paire
-excuse -une excuse
-chocolate -le chocolat
-celebration -la célébration
-cheese -le fromage
-fortune -la fortune
-bathroom -la salle de bain
-function -la fonction
-universe -un univers
-channel -le canal
-smile -le sourire
-milk -le lait
-requirement -une exigence
-suspicion -le soupçon
-household -le ménage
-finding -la constatation
-chest -la poitrine
-routine -la routine
-library -la bibliothèque
-harm -le préjudice
-margin -la marge
-object -un objet
-guitar -la guitare
-button -le bouton
-silence -le silence
-improvement -une amélioration
-drop -la baisse
-appointment -la nomination
-businessman -un homme d'affaires
-flow -le flux
-metal -le métal
-mirror -le miroir
-present -le présent
-carrier -le support
-expression -une expression
-fate -le sort
-cloud -le nuage
-muscle -le muscle
-belt -la bande
-chapter -le chapitre
-string -la chaîne
-trading -la négociation
-trick -une astuce
-guide -le guide
-volume -le volume
-match -le match
-fantasy -le fantasme
-knee -le genou
-compound -le composé
-stomach -un estomac
-height -la hauteur
-draft -le projet
-stranger -un étranger
-infection -une infection
-mass -la masse
-discipline -la discipline
-fruit -le fruit
-visitor -le visiteur
-poem -le poème
-phenomenon -le phénomène
-fence -la clôture
-application -une application
-recipe -la recette
-clothing -les vêtements
-guilt -la culpabilité
-survival -la survie
-champion -le champion
-uniform -un uniforme
-print -une impression
-potato -la pomme de terre
-arrangement -un arrangement
-moon -la lune
-bear -un ours
-wound -la plaie
-stability -la stabilité
-pride -la fierté
-restriction -la restriction
-total -le total
-barrier -la barrière
-cousin -le cousin
-occupation -une occupation
-cake -le gâteau
-lung -un poumon
-wheel -la roue
-observer -un observateur
-description -la description
-establishment -la mise en place
-chamber -la chambre
-horror -une horreur
-banking -le secteur bancaire
-apple -la pomme
-implication -une implication
-steel -un acier
-throat -la gorge
-essence -une essence
-raid -le raid
-distinction -la distinction
-german -un allemand
-lip -la lèvre
-timing -le calendrier
-insight -la perspicacité
-coup -le coup d'Etat
-shift -le passage
-policeman -le policier
-habit -une habitude
-sheet -la feuille
-offender -le délinquant
-midnight -un minuit
-execution -une exécution
-anxiety -une angoisse
-strip -la bande
-pop -la pop
-wonder -une merveille
-shadow -une ombre
-liberty -la liberté
-fiction -la fiction
-intervention -une intervention
-creation -la création
-marketing -la commercialisation
-christian -le chrétien
-pot -le pot
-fishing -la pêche
-breakfast -le petit déjeuner
-tube -le tube
-determination -la détermination
-sand -le sable
-permission -une autorisation
-guideline -la ligne directrice
-shame -la honte
-riot -une émeute
-user -un utilisateur
-organ -un organe
-resort -la station
-designer -le concepteur
-comparison -la comparaison
-employment -un emploi
-bread -le pain
-wish -le souhait
-lover -un amant
-jacket -la veste
-pass -la passe
-statute -la loi
-pace -le rythme
-frame -le cadre
-confusion -la confusion
-guarantee -la garantie
-commissioner -le commissaire
-flame -la flamme
-assumption -une hypothèse
-graduate -le diplômé
-entry -une entrée
-ward -la salle
-win -la victoire
-opera -un opéra
-friendship -une amitié
-exposure -une exposition
-pig -le cochon
-mate -le second
-nerve -le nerf
-length -la longueur
-cow -la vache
-pack -le pack
-instruction -une instruction
-collapse -un effondrement
-assistant -un assistant
-objection -une objection
-scholar -le savant
-comfort -le confort
-preparation -la préparation
-province -la province
-passage -le passage
-crystal -le cristal
-gear -un engrenage
-stroke -la course
-decline -la baisse
-achievement -la réalisation
-existence -une existence
-alliance -une alliance
-profession -la profession
-delivery -la fourniture
-publisher -un éditeur
-sympathy -la sympathie
-dish -le plat
-worry -une inquiétude
-component -le composant
-adventure -une aventure
-crop -la culture
-blow -le coup
-sin -le péché
-pension -la pension
-garage -le garage
-radiation -le rayonnement
-juice -le jus
-setting -le réglage
-index -un indice
-vegetable -le légume
-partnership -le partenariat
-poetry -la poésie
-recognition -la reconnaissance
-self -le moi
-standing -le statut
-tissue -le tissu
-shell -la coquille
-captain -le capitaine
-grave -la tombe
-rank -le rang
-shortage -la pénurie
-prize -le prix
-coat -le manteau
-seed -la graine
-rat -le rat
-soil -le sol
-shore -la rive
-defeat -la défaite
-notice -un avis
-boot -la chaussure
-chart -le tableau
-ministry -le ministère
-diamond -le diamant
-finish -la finition
-admission -une admission
-dark -une obscurité
-laboratory -le laboratoire
-professional -le professionnel
-reward -la récompense
-infant -le nourrisson
-text -le texte
-shower -la douche
-dose -la dose
-panic -la panique
-net -le net
-clerk -le greffier
-miner -le mineur
-delegation -la délégation
-imagination -une imagination
-unity -une unité
-uncle -un oncle
-ingredient -un ingrédient
-affectation -une affectation
-currency -la monnaie
-battery -la batterie
-tunnel -le tunnel
-resignation -la démission
-buyer -un acheteur
-bike -le vélo
-excitement -une excitation
-mouse -la souris
-alarm -un alarme
-poet -le poète
-landscape -le paysage
-selection -la sélection
-cry -le cri
-separation -la séparation
-display -un affichage
-disability -une invalidité
-counter -le compteur
-championship -le championnat
-butter -le beurre
-portrait -le portrait
-stick -le bâton
-engineering -une ingénierie
-myth -le mythe
-essay -un essai
-cold -le froid
-coal -un charbon
-contrast -le contraste
-observation -une observation
-tail -la queue
-mechanism -le mécanisme
-scheme -le régime
-presentation -la présentation
-angel -un ange
-bonus -le bonus
-possession -la possession
-learning -un apprentissage
-teaching -un enseignement
-deck -le pont
-creature -la créature
-running -le fonctionnement
-literature -la littérature
-weakness -la faiblesse
-blue -le bleu
-engagement -un engagement
-uncertainty -une incertitude
-inquiry -une enquête
-motivation -la motivation
-dust -la poussière
-peak -un pic
-instinct -un instinct
-needle -une aiguille
-leaf -la feuille
-launch -le lancement
-laugh -le rire
-leave -le congé
-grass -une herbe
-iron -le fer
-competitor -le concurrent
-complex -le complexe
-bean -la fève
-pole -le pôle
-vessel -le récipient
-subsidy -la subvention
-landing -un atterrissage
-pipe -le tuyau
-interpretation -une interprétation
-tournament -le tournoi
-hip -la hanche
-diagnosis -le diagnostic
-pitch -le terrain
-journal -la revue
-ceiling -le plafond
-export -une exportation
-awareness -la prise de conscience
-cross -la croix
-kiss -le baiser
-examination -un examen
-empire -un empire
-replacement -le remplacement
-duck -le canard
-formula -la formule
-devil -le diable
-limitation -la limitation
-compensation -la compensation
-invitation -une invitation
-declaration -la déclaration
-final -une finale
-premium -la prime
-ambulance -une ambulance
-carpet -le tapis
-temple -le temple
-constituent -le constituant
-concession -la concession
-consent -le consentement
-premise -la prémisse
-heritage -le patrimoine
-shelf -une étagère
-hint -une astuce
-rhythm -le rythme
-liability -le passif
-heel -le talon
-layer -la couche
-strain -la souche
-carbon -le carbone
-forum -le forum
-merit -le mérite
-youngster -le jeune
-transfer -le transfert
-distribution -la distribution
-expansion -une expansion
-depth -la profondeur
-blanket -le blanchet
-kingdom -le royaume
-mud -la boue
-arrival -une arrivée
-reflection -la réflexion
-envelope -une enveloppe
-reserve -la réserve
-hunting -la chasse
-furniture -les meubles
-gesture -le geste
-residence -la résidence
-ambition -une ambition
-nail -le clou
-spectrum -le spectre
-drawing -le dessin
-enthusiasm -un enthousiasme
-pen -le stylo
-preference -la préférence
-absence -une absence
-oxygen -un oxygène
-pollution -la pollution
-lock -la serrure
-extension -une extension
-participant -le participant
-architect -un architecte
-bench -le banc
-rope -la corde
-stream -le flux
-evolution -une évolution
-angle -un angle
-jurisdiction -la compétence
-charter -la charte
-ideology -une idéologie
-tide -la marée
-representation -la représentation
-identification -une identification
-concentration -la concentration
-norm -la norme
-spread -la propagation
-rival -le rival
-disappointment -la déception
-tribunal -le tribunal
-grain -le grain
-proportion -la proportion
-fool -le fou
-merger -la fusion
-loyalty -la loyauté
-publication -la publication
-participation -la participation
-escape -un échappement
-shareholder -un actionnaire
-constituency -la circonscription
-paint -la peinture
-toilet -la toilette
-ghost -le fantôme
-attraction -une attraction
-lion -le lion
-craft -le métier
-custom -la coutume
-cliff -la falaise
-palace -le palais
-grip -la poignée
-protein -la protéine
-accuracy -une exactitude
-theft -le vol
-widow -la veuve
-acceptance -une acceptation
-accent -un accent
-smell -une odeur
-departure -le départ
-membership -les membres
-expertise -une expertise
-repair -la réparation
-assembly -une assemblée
-summary -le résumé
-logic -la logique
-boundary -la limite
-equivalent -un équivalent
-holder -le titulaire
-dimension -la dimension
-rail -le rail
-transaction -la transaction
-left -la gauche
-sequence -la séquence
-festival -le festival
-pit -la fosse
-horizon -un horizon
-bowl -le bol
-purchase -un achat
-plaintiff -le demandeur
-aunt -la tante
-equity -une équité
-load -la charge
-scope -la portée
-darkness -une obscurité
-sandwich -le sandwich
-parish -la paroisse
-closure -la fermeture
-pile -la pile
-ownership -la propriété
-origin -une origine
-defender -le défenseur
-circuit -le circuit
-introduction -une introduction
-mode -le mode
-discount -la décote
-equation -une équation
-entity -une entité
-kit -le kit
-psychology -la psychologie
-virtue -la vertu
-flexibility -la flexibilité
-trainer -le formateur
-continent -le continent
-trader -le commerçant
-bath -le bain
-brick -la brique
-indicator -un indicateur
-seller -le vendeur
-promotion -la promotion
-clash -le choc
-characteristic -la caractéristique
-coin -la pièce
-assurance -une assurance
-proposition -la proposition
-tongue -la langue
-minimum -le minimum
-collector -le collecteur
-capitalism -le capitalisme
-basket -le panier
-framework -le cadre
-consciousness -la conscience
-switch -un interrupteur
-rent -le loyer
-curve -la courbe
-cotton -le coton
-patch -le patch
-import -une importation
-isolation -un isolement
-entrance -une entrée
-necessity -la nécessité
-square -la place
-steam -la vapeur
-agriculture -une agriculture
-transformation -la transformation
-sheep -le mouton
-brush -la brosse
-database -la base de données
-deposit -le dépôt
-menu -le menu
-adjustment -un ajustement
-triumph -le triomphe
-consumption -la consommation
-guardian -le gardien
-curtain -le rideau
-satisfaction -la satisfaction
-calculation -le calcul
-fleet -la flotte
-remedy -le remède
-lane -la voie
-certificate -le certificat
-swimming -la piscine
-emission -une émission
-fabric -le tissu
-medium -le moyen
-efficiency -une efficacité
-interaction -une interaction
-cab -la cabine
-glory -la gloire
-reception -la réception
-productivity -la productivité
-acid -un acide
-servant -le serviteur
-evaluation -une évaluation
-mill -le moulin
-sum -la somme
-counterpart -la contrepartie
-sergeant -le sergent
-storage -le stockage
-fraction -la fraction
-innovation -une innovation
-stance -la position
-motor -le moteur
-format -le format
-particle -la particule
-trace -la trace
-fluid -le fluide
-curriculum -le programme
-doctrine -la doctrine
-developer -le développeur
-pause -la pause
-removal -une élimination
-sensation -la sensation
-dividend -le dividende
-monopoly -le monopole
-gallery -la galerie
-lecture -la conférence
-taxi -le taxi
-discretion -la discrétion
-flesh -la chair
-merchant -le commerçant
-quantity -la quantité
-darling -le chouchou
-justification -la justification
-painter -le peintre
-mixture -le mélange
-breach -la violation
-lift -un ascenseur
-pond -un étang
-cheek -la joue
-successor -le successeur
-registration -un enregistrement
-consultation -la consultation
-qualification -la qualification
-supplier -le fournisseur
-autumn -un automne
-hardware -le matériel
-leather -le cuir
-rabbit -le lapin
-paragraph -un paragraphe
-companion -le compagnon
-essence -une essentiel
-corridor -le couloir
-workshop -un atelier
-shade -une ombre
-accountant -le comptable
-sword -une épée
-formation -la formation
-integration -une intégration
-expenditure -la dépense
-rod -la tige
-complexity -la complexité
-skirt -la jupe
-insect -un insecte
-transport -le transport
-mortality -la mortalité
-slope -la pente
-restoration -la restauration
-nest -le nid
-variation -la variation
-composition -la composition
-crown -la couronne
-probability -la probabilité
-liberation -la libération
-attendance -la participation
-organism -un organisme
-conservation -la conservation
-sculpture -la sculpture
-champagne -le champagne
-architecture -une architecture
-council -le conseil
-university -une université
-billion -le milliard
-go -le feu
-shit -la merde
-earth -la terre
-lifespan -la durée de vie
-vat -la cuve
-purchaser -un acheteur
-fibre -la fibre
-constable -le connétable
-navy -la marine
-inn -une auberge
-programme -le programme
-mile -le mile
-fig -la figue
-photograph -la photographie
-interface -une interface
-photo -la photo
-eagle -un aigle
-colony -la colonie
-labour -la main-
-neighbour -le prochain
-red -le rouge
-rubbish -les ordures
-bush -la brousse
-lake -le lac
-lad -le jeune garçon
-judgement -le jugement
-humour -un humour
-rose -la rose
-favour -la faveur
-terrace -la terrasse
-mother -la maman
-bay -la baie
-borough -un arrondissement
-commonwealth -la république
-association -une association
-hill -la colline
-jew -le Juif
-colonel -le colonel
-god -le dieu
-constitution -la constitution
-honour -un honneur
-treasury -le trésor
-white -le blanc
-cupboard -le placard
-park -le parc
-dozen -la douzaine
-cheque -le chèque
-magistrate -le magistrat
-junction -la jonction
-ms -les ms
-hundred -la centaine
-councillor -le conseiller
-inch -le pouce
-favourite -le favori
-daddy -le papa
-pensioner -le pensionné
-rumour -la rumeur
-aids -les aides
-other -un autre
-illustration -une illustration
-avenue -une avenue
-county -le comté
-miss -la miss
-percent -le pour cent
-traveller -le voyageur
-acre -un acre
-gaze -le regard
-pope -le pape
-classification -la classification
-redundancy -la redondance
-builder -le constructeur
-metre -l'appareil de mesure
-mummy -la momie
-van -la fourgonnette
-chap -le chap
-centre -le centre
-king -le roi
-organisation -une organisation
-behaviour -le comportement
-bill -le projet de loi
-criterion -le critère
-enquiry -une enquête
-appendix -une annexe
-tutor -le tuteur
-tv -la télé
-princess -la princesse
-allocation -une attribution
-harbour -le port
-whisky -un whisky
-thousand -le mille
-defence -la défense
-queen -la reine
-republic -la république
-co -la co
-licence -la licence
-proceeding -la procédure
-duke -le duc
-tonne -la tonne
-specification -la spécification
-lorry -le camion
-million -un million
-no -le pas
-mark -la marque
-offence -une infraction
-valley -la vallée
-federation -la fédération
-villa -la villa
-abbey -une abbaye
-sociology -la sociologie
-colour -la couleur
-prince -le prince
-theatre -le théâtre
-ref -un arbitre
-dollar -le dollar
-bureau -le bureau
-lord -le seigneur
-institute -un institut
-corp -le corp
-stairs -un escalier
-catalogue -le catalogue
-earl -le comte
-petrol -une essence
-directory -le répertoire
-archbishop -un archevêque
-frequency -la fréquence
-seminar -le séminaire
-interior -un intérieur
-verse -le verset
-receipt -la réception
-breed -la race
-measurement -la mesure
-palm -la paume
-dock -le quai
-pc -le pc
-disadvantage -un inconvénient
-installation -une installation
-advertisement -la publicité
-implementation -la mise en oeuvre
-portfolio -le portefeuille
-timber -le bois
-clause -la clause
-discourse -le discours
-disc -le disque
-blade -la lame
-ratio -le rapport
-mineral -le minéral
-outline -le contour
-addition -une addition
-machinery -la machine
-canal -le canal
-local -un local
-disposal -la disposition
-refusal -le refus
-domain -le domaine
-register -le registre
-audit -un audit
-availability -la disponibilité
-acquisition -une acquisition
-autonomy -une autonomie
-silk -la soie
-beam -la poutre
-applicant -le demandeur
-modification -la modification
-tin -un étain
-fragment -le fragment
-tenant -le locataire
-conversion -la conversion
-vendor -le vendeur
-practitioner -le praticien
-delight -le plus grand plaisir
-filter -le filtre
-bronze -la médaille de bronze
-doorway -la porte
-incidence -une incidence
-lease -le bail
-constraint -la contrainte
-cloth -le tissu
-nursery -la pépinière
-creditor -le créancier
-taxation -une imposition
-disk -le disque
-dictionary -le dictionnaire
-conception -la conception
-trustee -le syndic
-molecule -la molécule
-holding -la tenue
-cottage -le chalet
-landlord -le propriétaire
-succession -la succession
-warmth -la chaleur
-spell -le sort
-chapel -la chapelle
-leisure -le loisir
-reign -le règne
-reply -la réponse
-duration -la durée
-castle -le château
-hierarchy -la hiérarchie
-correlation -la corrélation
-exclusion -une exclusion
-pub -un pub
-hypothesis -une hypothèse
-lamp -la lampe
-sphere -la sphère
-chancellor -le chancelier
-peasant -le paysan
-output -la sortie
-emperor -un empereur
-glance -le regard
-specimen -un échantillon
-directive -la directive
-thesis -la thèse
-working -le travail
-oak -le chêne
-turnover -le chiffre d'affaires
-allowance -une allocation
-tray -le bac
-auditor -un auditeur
-server -le serveur
-cathedral -la cathédrale
-pity -la pitié
-variable -la variable
-clay -une argile
-carriage -le chariot
-cinema -le cinéma
-leaflet -la notice
-copper -un cuivre
-density -la densité
-subsidiary -la filiale
-dismissal -le licenciement
-completion -un achèvement
-processor -le processeur
-packet -le paquet
-wool -la laine
-heading -un en-tête
-grammar -la grammaire
-pavement -le trottoir
-receiver -le récepteur
-module -le module
-railway -la voie ferrée
-pupil -la pupille
-cricket -le grillon
-printer -une imprimante
-interval -un intervalle
-diagram -le diagramme
-bastard -le bâtard
-diary -un agenda
-opera -un opéra
-tapioca - le tapioca
-magma - le magma
-soda - le soda
-pizza - la pizza
-cafeteria - la cafétéria
-ant - la fourmi
-bucket - le seau
-owl - un hibou
-jewel - le bijou
-pebble - le caillou
-beak - le bec
-lead - le plomb
-north - le nord
-fog - le brouillard
-knot - le nœud
-threshold - le seuil
-honey - le miel
-mourning - le deuil
-thread - le fil
-eyebrow - le sourcil
-perfume - le parfum
-first name - le prénom
-jeep - la jeep
-moviestar - la star
-tower - la tour
-back - le dos
-month - le mois
-verse - le verse
-occasion - la fois
-oasis - une oasis
-screw - la vis
-stop - un arrêt
-right - un droit
-faucet - le robinet
-desire - le souhait
-majority - la plupart
-nut - la noix
-cough - la toux
-worry - le souci
-misunderstanding - le malentendu
-receipt - le reçu
-flag - le bandeau
-gulp - la gorgée
-zenith - un apogée
-alley - une allée
-comedy - la comédie
-chalk - la craie
-fury - la furie
-insomnia - une insomnie
-trickery - la tromperie
-melancholy - la mélancolie
-prey - la proie
-wound - la plaie
-genius - le génie
-confligration - un incendie
-umbrella - le parapluie
-plow - la charrue
-mud - la boue
-molting - la mue
-holding - la tenue
-view - une entrevue
-amoeba - une amibe
-dove - la colombe
-tomb - la tombe
-curve - la courbe
-dawn - une aube
-cube - le cube
-verb - le verbe
-microbe - le microbe
-globe - le globe
-front - la face
-grimace - la grimace 
-ounce - une once
-populace - la populace	
-spring (natural) - la source 
-resource - la ressource
-thumb - le pouce
-business - le commerce
-divorce - le divorce
-habit - une habitude
-large village - la bourgade
-waterfall - la cascade
-pomegranate - la grenade
-legend - la légende
-method - la méthode
-fluid - le fluide
-elbow - le coude
-clasp - un agrafe 
-carafe - la carafe
-hairstyle - la coiffe
-material - une étoffe
-gulf - le golfe
-candle - la chandelle
-lace - la dentelle
-ladder - une échelle
-string - la ficelle
-gazelle - la gazelle
-garbage can - la poubelle
-dishes - la vaisselle
-sunshade - une ombrelle
-grasshopper - la sauterelle
-vermicelli - le vermicelle
-grate - la grille 
-bee - une abeille
-basket - la corbeille
-the day before - la veille
-the day after - le lendemain
-interval - un intervalle
-car - la bagnole
-saucepan - la casserole
-console - la console
-idol - une idole
-word - la parole
-monopoly - le monopole
-role - le rôle
-control - le contrôle
-symbol - le symbole
-cymbal - la cymbale
-port of call - une escale
-pedal - la pédale
-sandal - la sandale
-shawl - le châle
-petal - le pétale
-scandal - le scandale
-film - la pellicule
-bladder - la vésicule
-bulb, blister - une ampoule 
-crowd - la foule
-villain - la crapule
-capsule - la capsule
-mouth of an animal - la gueule
-preamble - le préambule
-tenticle - le tentacule
-ventricle - le ventricule
-intrigue - une intrigue
-fatigue - la fatigue
-drug - la drogue
-fashion - la vogue
-monolog - le monologue
-back of the neck - la nuque
-mosquito - le moustique
-hate - la haine
-chain - la chaîne
-saxophone - le saxophone
-vine - la vigne
-mountain - la montagne
-thrift - une épargne
-countryside - la campagne
-line - la ligne
-swan - le cygne
-embarrassment - le gène
-comb - le peigne
-isotope - un isotope
-microscope - le microscope
-floor - une étape
-team - une équipe
-wasp - la guêpe
-lamp - la lampe
-skirt - la jupe
-soup - la soupe
-swimming - la nage
-rabies - la rage
-stable - une étable
-fable - une fable
-URL - une URL
-manicle - la manicle
-debacle - la débâcle
-loop - une boucle
-expresso - un expresso
-watering can - un arrosoir
-loto - le loto
-bamboo - le bambou
-nanny - une nounou
-teddy bear, comforter - le doudou
-start up - une start-up
-underwear (men's) - un slip
-field - un champ
-cabbage - un chou
-jeep - une jeep
-beef - un bœuf
-bro - un frérot
-cowboy boot - une santiag
+people : le peuple
+time : le temps
+year : une année
+thing : la chose
+way : le chemin
+day : le jour
+man : un homme
+state : un état
+lot : le lot
+woman : la femme
+country : le pays
+life : la vie
+question : la question
+president : le président
+child : un enfant
+week : la semaine
+world : un monde
+kind : le genre
+case : le cas
+problem : le problème
+fact : le fait
+family : la famille
+point : le point
+government : le gouvernement
+money : un argent
+issue : la question
+part : la partie
+morning : Le matin
+guy : le gars
+number : le nombre
+job : le travail
+night : la nuit
+right : le droit
+school : une école
+place : le lieu
+war : la guerre
+month : le mois
+book : le livre
+hour : une heure
+show : le spectacle
+police : la police
+program : le programme
+party : la partie
+law : la loi
+word : le mot
+person : la personne
+home : la maison
+business : une entreprise
+friend : un ami
+company : une entreprise
+side : le côté
+tax : la taxe
+democrat : le démocrate
+group : le groupe
+break : la pause
+idea : une idée
+member : le membre
+system : le système
+minute : la minute
+reason : la raison
+campaign : la campagne
+work : un oeuvre
+nation : la nation
+congress : le congrès
+mother : la mère
+force : la force
+health : la santé
+back : un arrière
+area : la zone
+name : le nom
+report : le rapport
+hand : la main
+line : la ligne
+end : la fin
+court : le tribunal
+care : les soins
+couple : le couple
+house : la maison
+american : un américain
+father : le père
+situation : la situation
+car : la voiture
+parent : le parent
+administration : une administration
+drug : le médicament
+city : la ville
+sense : le sens
+policy : la politique
+office : le bureau
+decision : la décision
+power : la puissance
+plan : le plan
+leader : le leader
+information : les informations
+election : une élection
+movie : le film
+death : la mort
+air : un air
+call : un appel
+community : la communauté
+look : le look
+evidence : la preuve
+girl : la jeune fille
+doctor : le médecin
+vote : le vote
+video : la vidéo
+picture : une image
+room : la chambre
+bit : le bit
+economy : une économie
+phone : le téléphone
+history : une histoire
+boy : le garçon
+crime : le crime
+process : le processus
+wife : un épouse
+music : la musique
+water : une eau
+service : le service
+record : le dossier
+security : la sécurité
+talk : le discours
+mind : un esprit
+head : la tête
+candidate : le candidat
+official : le fonctionnaire
+camera : un appareil photo
+student : un étudiant
+attack : une attaque
+chance : la chance
+game : le jeu
+baby : le bébé
+south : le sud
+change : le changement
+trial : le procès
+body : le corps
+market : le marché
+stuff : une étoffe
+interest : un intérêt
+weapon : une arme
+heart : le cœur
+son : le fils
+team : une équipe
+town : la ville
+television : la télévision
+will : la volonté
+troop : la troupe
+judge : le juge
+action : une action
+answer : la réponse
+position : la position
+view : la vue
+difference : la différence
+food : la nourriture
+daughter : la fille
+race : la course
+deal : un accord
+street : la rue
+price : le prix
+message : le message
+control : le contrôle
+debate : le débat
+officer : un agent
+film : le film
+level : le niveau
+effort : un effort
+relationship : la relation
+correspondent : le correspondant
+ground : le sol
+piece : la pièce
+husband : le mari
+budget : le budget
+jury : le jury
+reporter : le journaliste
+weekend : le week-end
+matter : la matière
+age : un âge
+gun : le pistolet
+peace : la paix
+murder : un assassiner
+role : le rôle
+investigation : une enquête
+experience : une expérience
+hospital : un hôpital
+eye : un oeil
+director : le directeur
+future : un avenir
+face : le visage
+oil : une huile
+result : le résultat
+public : le public
+lawyer : un avocat
+poll : le scrutin
+second : la seconde
+opportunity : la possibilité
+industry : une industrie
+brother : le frère
+statement : la déclaration
+fire : le feu
+love : un amour
+rate : le taux
+effect : un effet
+song : la chanson
+event : un événement
+charge : la charge
+support : le support
+radio : la radio
+building : un bâtiment
+bank : la banque
+victim : la victime
+door : la porte
+interview : une interview
+scene : la scène
+rest : le reste
+press : la presse
+attention : une attention
+choice : le choix
+speech : le discours
+patient : le patient
+truth : la vérité
+road : la route
+term : le terme
+site : le site
+worker : le travailleur
+professor : le professeur
+letter : la lettre
+reform : la réforme
+concern : la préoccupation
+folk : les gens
+study : une étude
+college : le collège
+voter : un électeur
+wall : le mur
+evening : le soir
+meeting : la réunion
+voice : la voix
+audience : une auditoire
+violence : la violence
+rule : la règle
+star : une étoile
+test : le test
+education : une éducation
+trouble : la peine
+risk : le risque
+prison : la prison
+guest : un invité
+class : la classe
+society : de la société
+soldier : le soldat
+plane : le plan
+amount : la quantité
+help : un aide
+cost : le coût
+authority : une autorité
+foot : le pied
+period : la période
+feeling : le sentiment
+step : une étape
+cause : la cause
+tape : la bande
+threat : la menace
+opinion : une opinion
+organization : une organisation
+type : le type
+conversation : la conversation
+disease : la maladie
+operation : une opération
+cancer : le cancer
+magazine : le magazine
+governor : le gouverneur
+pressure : la pression
+majority : la majorité
+research : la recherche
+character : le caractère
+station : la station
+crisis : la crise
+expert : un expert
+blood : le sang
+chairman : le président
+argument : un argument
+list : la liste
+dog : le chien
+computer : un ordinateur
+insurance : une assurance
+field : le domaine
+sister : la sœur
+mistake : une erreur
+player : le joueur
+energy : une énergie
+paper : le papier
+space : un espace
+store : la boutique
+responsibility : la responsabilité
+lady : la dame
+order : un ordre
+summer : un été
+product : le produit
+value : la valeur
+stock : le stock
+intelligence : une intelligence
+teacher : un enseignant
+agency : une agence
+trade : le commerce
+conference : la conférence
+cell : la cellule
+church : une église
+comment : le commentaire
+source : la source
+past : le passé
+cut : la coupe
+thought : la pensée
+credit : le crédit
+hope : un espoir
+sign : le signe
+career : de la carrière
+marriage : le mariage
+condition : la condition
+witness : le témoin
+technology : la technologie
+stage : la scène
+staff : le personnel
+arm : le bras
+mission : la mission
+art : un art
+actor : un acteur
+battle : la bataille
+top : le haut
+citizen : le citoyen
+author : un auteur
+reaction : la réaction
+gentleman : le monsieur
+leadership : la direction
+fear : la peur
+example : un exemple
+language : la langue
+need : la nécessité
+justice : la justice
+discussion : la discussion
+border : la frontière
+animal : un animal
+detail : un détail
+response : la réaction
+network : le réseau
+movement : le mouvement
+use : une utilisation
+male : le mâle
+capital : la capitale
+hearing : une audience
+standard : la norme
+benefit : un avantage
+table : la table
+treatment : le traitement
+agent : un agent
+card : la carte
+shot : le tir
+board : le conseil
+reality : la réalité
+sir : le monsieur
+land : la terre
+project : le projet
+light : la lumière
+image : une image
+century : un siècle
+page : la page
+success : le succès
+sound : le son
+impact : un impact
+pain : la douleur
+season : la saison
+individual : un individu
+sport : le sport
+studio : le studio
+decade : la décennie
+challenge : le défi
+dream : le rêve
+newspaper : le journal
+floor : le plancher
+fight : la lutte
+safety : la sécurité
+act : un acte
+trip : le voyage
+course : un cours
+possibility : la possibilité
+freedom : la liberté
+fund : le fonds
+seat : le siège
+bomb : la bombe
+form : la forme
+executive : un exécutif
+minister : le ministre
+deficit : le déficit
+development : le développement
+flight : le vol
+secretary : le secrétaire
+committee : le comité
+consumer : le consommateur
+rock : la roche
+figure : la figure
+subject : un objet
+culture : la culture
+hair : les cheveux
+coverage : la couverture
+loss : la perte
+dad : le papa
+note : la note
+activity : une activité
+goal : un objectif
+option : une option
+gas : le gaz
+region : la région
+population : la population
+ability : la capacité
+resolution : la résolution
+employee : un employé
+brain : le cerveau
+politician : le politicien
+middle : le milieu
+storm : la tempête
+generation : la génération
+critic : le critique
+fan : le ventilateur
+scientist : le scientifique
+target : la cible
+camp : le camp
+afternoon : un après-midi
+direction : la direction
+science : une science
+journalist : le journaliste
+degree : le degré
+affair : un affaire
+damage : les dommages
+strategy : la stratégie
+factor : le facteur
+plant : une usine
+democracy : la démocratie
+doubt : du doute
+solution : la solution
+spending : les dépenses
+training : la formation
+abuse : un abus
+danger : le danger
+environment : un environnement
+memory : la mémoire
+nature : la nature
+material : le matériau
+document : le document
+income : le revenu
+analyst : un analyste
+play : le jeu
+guard : la garde
+hotel : un hôtel
+editor : un éditeur
+missile : le missile
+accident : un accident
+purpose : le but
+writer : un écrivain
+emergency : la situation d'urgence
+growth : la croissance
+bed : le lit
+welfare : le bien-être
+adult : un adulte
+faith : la foi
+proposal : la proposition
+model : le modèle
+army : une armée
+incident : un incident
+box : la boîte
+crowd : la foule
+respect : le respect
+department : le département
+access : un accès
+date : la date
+chief : le chef
+weather : le temps
+airport : un aéroport
+machine : la machine
+window : la fenêtre
+agenda : un ordre du jour
+advice : les conseils
+prosecution : la poursuite
+conflict : le conflit
+fall : la chute
+pilot : le pilote
+practice : la pratique
+track : la piste
+owner : le propriétaire
+increase : une augmentation
+legislation : la législation
+tree : un arbre
+debt : la dette
+enemy : un ennemi
+truck : le camion
+lead : la tête
+convention : la convention
+aid : un aide
+suicide : le suicide
+quality : la qualité
+conservative : le conservateur
+size : la taille
+account : le compte
+pleasure : le plaisir
+institution : une institution
+airline : la compagnie aérienne
+weight : le poids
+approach : une approche
+surgery : la chirurgie
+holiday : la fête
+start : le début
+victory : la victoire
+district : le quartier
+relation : la relation
+search : la recherche
+crew : un équipage
+panel : le panneau
+coalition : la coalition
+move : le déménagement
+package : un emballage
+check : le chèque
+minority : la minorité
+unit : une unité
+bag : le sac
+surprise : la surprise
+focus : la mise au point
+circumstance : la circonstance
+producer : le producteur
+investment : un investissement
+ball : la balle
+colleague : un collègue
+resource : la ressource
+judgment : le jugement
+background : un arrière-plan
+union : une union
+address : une adresse
+driver : le conducteur
+hero : le héros
+medicine : la médecine
+representative : le représentant
+vehicle : le véhicule
+commander : le commandant
+artist : un artiste
+mayor : le maire
+run : la course
+ship : le navire
+theory : la théorie
+screen : un écran
+lesson : la leçon
+resident : le résident
+partner : le partenaire
+bar : la barre
+ticket : le billet
+disaster : la catastrophe
+performance : la performance
+supporter : un supporter
+killer : le tueur
+negotiation : la négociation
+sea : la mer
+wind : le vent
+shoe : la chaussure
+secret : le secret
+tragedy : la tragédie
+gift : le don
+tour : la tournée
+manager : le gestionnaire
+band : la bande
+birth : la naissance
+host : un hôte
+loan : le prêt
+allegation : une allégation
+winner : le gagnant
+religion : la religion
+article : un article
+session : la session
+being : un être
+extent : la mesure
+contract : le contrat
+sentence : la phrase
+measure : la mesure
+deputy : le vice-
+confidence : la confiance
+hell : un enfer
+relief : le relief
+perspective : la perspective
+advantage : un avantage
+scandal : le scandale
+leg : la jambe
+restaurant : le restaurant
+dinner : un dîner
+client : le client
+failure : un échec
+quarter : le trimestre
+element : un élément
+claim : la demande
+property : la propriété
+version : la version
+attempt : la tentative
+bus : le bus
+customer : le client
+pound : la livre
+protection : la protection
+gene : le gène
+stone : la pierre
+opposition : une opposition
+apartment : un appartement
+front : un avant
+female : la femelle
+prisoner : le prisonnier
+black : un noir
+gang : le gang
+principle : le principe
+ally : un allié
+adviser : le conseiller
+visit : la visite
+bird : un oiseau
+stand : le support
+communication : la communication
+boat : le bateau
+connection : la connexion
+key : la clé
+strike : la grève
+penalty : la peine
+warning : un avertissement
+luck : La chance
+turn : le tour
+facility : une installation
+teenager : un adolescent
+commitment : un engagement
+procedure : la procédure
+half : la moitié
+tank : le réservoir
+telephone : le téléphone
+supply : une offre
+attitude : une attitude
+block : le bloc
+bond : le lien
+style : le style
+football : le foot
+fuel : le carburant
+data : les données
+glass : le verre
+suit : le costume
+strength : la force
+criticism : la critique
+ice : la glace
+equipment : un équipement
+promise : la promesse
+return : le retour
+album : un album
+production : la production
+corner : le coin
+consequence : la conséquence
+living : les vivants
+injury : la blessure
+cover : le couvercle
+breast : la poitrine
+spring : un printemps
+controversy : la controverse
+destruction : la destruction
+aspect : un aspect
+club : le club
+aircraft : un avion
+regime : le régime
+competition : la compétition
+profit : le bénéfice
+knowledge : la connaissance
+spokesman : le porte-parole
+understanding : la compréhension
+recession : la récession
+singer : le chanteur
+village : le village
+arrest : une arrestation
+snow : la neige
+joke : la blague
+gold : un or
+contact : le contact
+demand : la demande
+task : la tâche
+hole : le trou
+general : le grand
+skin : la peau
+count : le décompte
+opponent : un adversaire
+conclusion : la conclusion
+priority : la priorité
+rape : un viol
+refugee : le réfugié
+mountain : la montagne
+summit : le sommet
+bottom : le fond
+management : la gestion
+commission : la commission
+range : la gamme
+code : le code
+cash : un argent
+mouth : la bouche
+presence : la présence
+share : la part
+fashion : la mode
+shape : la forme
+chair : Le président
+finger : le doigt
+fish : le poisson
+edition : une édition
+edge : le bord
+limit : la limite
+train : le train
+belief : la croyance
+balance : un équilibre
+exchange : un échange
+farm : la ferme
+zone : la zone
+passenger : le passager
+lie : le mensonge
+duty : le devoir
+traffic : le trafic
+horse : le cheval
+tradition : la tradition
+recovery : la récupération
+inspector : un inspecteur
+difficulty : la difficulté
+file : le fichier
+birthday : un anniversaire
+finance : la finance
+crash : le crash
+influence : une influence
+regulation : la réglementation
+analysis : une analyse
+struggle : la lutte
+heat : la chaleur
+dress : la robe
+release : la libération
+winter : un hiver
+virus : le virus
+theme : le thème
+notion : la notion
+device : le dispositif
+anger : la colère
+english : les Anglais
+flag : le drapeau
+context : le contexte
+wing : une aile
+fighting : les combats
+pattern : le motif
+entertainment : une animation
+appearance : une apparence
+investor : un investisseur
+bridge : le pont
+settlement : le règlement
+rain : la pluie
+wood : le bois
+mail : un e-mail
+farmer : un agriculteur
+mystery : le mystère
+prayer : la prière
+vision : la vision
+depression : la dépression
+explosion : une explosion
+defendant : le défendeur
+structure : la structure
+amendment : un amendement
+assault : un assaut
+thinking : la réflexion
+therapy : la thérapie
+nurse : une infirmière
+path : le trajet
+funding : le financement
+tool : un outil
+title : le titre
+housing : le boîtier
+shop : la boutique
+complaint : la plainte
+wave : la vague
+cat : le chat
+map : la carte
+employer : un employeur
+proof : la preuve
+emotion : une émotion
+skill : la compétence
+trust : la confiance
+topic : le sujet
+personality : la personnalité
+hall : la salle
+cabinet : une armoire
+bone : un os
+soul : une âme
+chicken : le poulet
+location : un emplacement
+indication : une indication
+speaker : le haut-parleur
+wage : le salaire
+era : une ère
+request : la demande
+boss : le patron
+coach : un entraîneur
+estate : la succession
+sector : le secteur
+egg : un œuf
+stake : un enjeu
+stop : la butée
+ring : un anneau
+shock : le choc
+contribution : la contribution
+announcement : une annonce
+cigarette : la cigarette
+kitchen : la cuisine
+territory : le territoire
+command : la commande
+island : une île
+protest : la protestation
+impression : une impression
+fault : la faute
+coast : la côte
+reading : de la lecture
+variety : la variété
+revenue : les recettes
+bell : la cloche
+coffee : le café
+alcohol : un alcool
+lunch : le déjeuner
+expectation : une attente
+grade : la note
+diet : une alimentation
+section : la section
+ear : une oreille
+sky : le ciel
+signal : le signal
+stress : la contrainte
+researcher : le chercheur
+cable : le câble
+opening : une ouverture
+beach : la plage
+volunteer : le volontaire
+burden : la charge
+detective : le détective
+toy : un jouet
+gain : le gain
+asset : un actif
+pool : la piscine
+trend : la tendance
+survey : une enquête
+planet : la planète
+river : la rivière
+identity : une identité
+ocean : un océan
+joy : la joie
+delay : le retard
+clinic : la clinique
+yard : la cour
+tip : la pointe
+divorce : le divorce
+sun : le soleil
+row : la ligne
+phrase : la phrase
+worth : la valeur
+collection : la collection
+occasion : une occasion
+surface : la surface
+tie : la cravate
+musician : le musicien
+concept : le concept
+tension : la tension
+outcome : le résultat
+approval : une approbation
+fellow : le boursier
+beauty : la beauté
+casualty : la victime
+copy : la copie
+mine : la mine
+watch : la montre
+sleep : un sommeil
+average : la moyenne
+travel : le Voyage
+fraud : la fraude
+category : la catégorie
+exercise : un exercice
+conviction : la conviction
+initiative : une initiative
+technique : la technique
+recording : un enregistrement
+sight : la vue
+reduction : la réduction
+whole : un ensemble
+corporation : la société
+passion : la passion
+funeral : les funérailles
+youth : les jeunes
+instrument : un instrument
+distance : la distance
+desert : le désert
+writing : une écriture
+invasion : une invasion
+compromise : le compromis
+illness : la maladie
+tear : la déchirure
+gate : la porte
+forest : la forêt
+experiment : une expérience
+golf : le parcours
+talent : le talent
+post : le poste
+gap : un écart
+priest : le prêtre
+novel : le roman
+division : la division
+desire : le désir
+hat : le chapeau
+mortgage : une hypothèque
+reputation : la réputation
+score : le score
+shoulder : une épaule
+relative : le parent
+column : la colonne
+payment : le paiement
+transition : la transition
+award : le prix
+capability : la capacité
+definition : la définition
+pocket : la poche
+speed : la vitesse
+concert : le concert
+climate : le climat
+clue : un indice
+beer : la bière
+nose : le nez
+green : le vert
+garden : le jardin
+satellite : le satellite
+ceremony : la cérémonie
+human : un humain
+discovery : la découverte
+ride : le trajet
+root : la racine
+tea : le thé
+motion : le mouvement
+percentage : le pourcentage
+combination : la combinaison
+explanation : une explication
+scale : une échelle
+chain : la chaîne
+twin : le jumeau
+capacity : la capacité
+dealer : le concessionnaire
+journey : le voyage
+delegate : le délégué
+link : le lien
+plastic : la matière plastique
+stimulus : le stimulus
+cap : le bouchon
+roll : le rouleau
+construction : la construction
+intention : une intention
+dispute : le différend
+mood : une humeur
+design : la conception
+childhood : une enfance
+engine : le moteur
+lifetime : la durée de vie
+nightmare : le cauchemar
+dance : la danse
+meal : le repas
+obligation : une obligation
+advance : une avance
+tourist : le touriste
+fat : la graisse
+salt : le sel
+neck : le cou
+bedroom : la chambre à coucher
+episode : un épisode
+engineer : un ingénieur
+punishment : la punition
+testing : les tests
+instance : une instance
+prospect : la perspective
+shopping : les courses
+smoke : la fumée
+meat : la viande
+hold : la cale
+retirement : la retraite
+inflation : une inflation
+drama : le drame
+desk : le bureau
+salary : le salaire
+bible : la bible
+grant : la subvention
+demonstration : la démonstration
+dialogue : le dialogue
+substance : la substance
+core : le noyau
+treaty : le traité
+personnel : le personnel
+sample : un échantillon
+tactic : la tactique
+method : le procédé
+noise : le bruit
+objective : un objectif
+flower : la fleur
+cup : la tasse
+temperature : la température
+symbol : le symbole
+revolution : la révolution
+taste : le goût
+museum : le musée
+profile : le profil
+suggestion : la suggestion
+route : un itinéraire
+tooth : la dent
+consultant : le consultant
+drive : le lecteur
+disorder : le trouble
+sugar : le sucre
+rise : la hausse
+chip : la puce
+motive : le motif
+shirt : la chemise
+port : le port
+potential : le potentiel
+schedule : le calendrier
+parliament : le parlement
+contest : le concours
+atmosphere : une atmosphère
+branch : la branche
+estimate : une estimation
+symptom : le symptôme
+involvement : la participation
+discrimination : la discrimination
+walk : la promenade
+operator : un opérateur
+recommendation : la recommandation
+rebel : le rebelle
+round : la ronde
+maker : le fabricant
+wine : le vin
+remark : la remarque
+mess : le désordre
+tone : le ton
+resistance : la résistance
+importance : une importance
+exception : une exception
+platform : la plate-forme
+knife : le couteau
+perception : la perception
+fee : la taxe
+master : le maître
+circle : le cercle
+manner : la manière
+jet : le jet
+meaning : la signification
+assessment : une évaluation
+plate : la plaque
+expense : un dépens
+plot : une intrigue
+classroom : la salle de classe
+brand : la marque
+painting : la peinture
+roof : le toit
+privilege : le privilège
+drink : la boisson
+ban : une interdiction
+content : le contenu
+chemical : le produit chimique
+french : le français
+inspection : une inspection
+incentive : une incitation
+piano : le piano
+bottle : la bouteille
+waste : les déchets
+label : une étiquette
+clock : une horloge
+cream : la crème
+good : les bons
+phase : la phase
+philosophy : la philosophie
+conduct : la conduite
+cycle : le cycle
+electricity : une électricité
+bishop : un évêque
+reader : le lecteur
+pregnancy : la grossesse
+league : la ligue
+pet : un animal
+foundation : la fondation
+boom : le boom
+tower : la tour
+feature : la fonction
+withdrawal : le retrait
+breath : le souffle
+crack : la fissure
+manufacturer : le fabricant
+specialist : le spécialiste
+reference : la référence
+provision : la fourniture
+historian : un historien
+wire : le fil
+speculation : la spéculation
+pair : la paire
+excuse : une excuse
+chocolate : le chocolat
+celebration : la célébration
+cheese : le fromage
+fortune : la fortune
+bathroom : la salle de bain
+function : la fonction
+universe : un univers
+channel : le canal
+smile : le sourire
+milk : le lait
+requirement : une exigence
+suspicion : le soupçon
+household : le ménage
+finding : la constatation
+chest : la poitrine
+routine : la routine
+library : la bibliothèque
+harm : le préjudice
+margin : la marge
+object : un objet
+guitar : la guitare
+button : le bouton
+silence : le silence
+improvement : une amélioration
+drop : la baisse
+appointment : la nomination
+businessman : un homme d'affaires
+flow : le flux
+metal : le métal
+mirror : le miroir
+present : le présent
+carrier : le support
+expression : une expression
+fate : le sort
+cloud : le nuage
+muscle : le muscle
+belt : la bande
+chapter : le chapitre
+string : la chaîne
+trading : la négociation
+trick : une astuce
+guide : le guide
+volume : le volume
+match : le match
+fantasy : le fantasme
+knee : le genou
+compound : le composé
+stomach : un estomac
+height : la hauteur
+draft : le projet
+stranger : un étranger
+infection : une infection
+mass : la masse
+discipline : la discipline
+fruit : le fruit
+visitor : le visiteur
+poem : le poème
+phenomenon : le phénomène
+fence : la clôture
+application : une application
+recipe : la recette
+clothing : les vêtements
+guilt : la culpabilité
+survival : la survie
+champion : le champion
+uniform : un uniforme
+print : une impression
+potato : la pomme de terre
+arrangement : un arrangement
+moon : la lune
+bear : un ours
+wound : la plaie
+stability : la stabilité
+pride : la fierté
+restriction : la restriction
+total : le total
+barrier : la barrière
+cousin : le cousin
+occupation : une occupation
+cake : le gâteau
+lung : un poumon
+wheel : la roue
+observer : un observateur
+description : la description
+establishment : la mise en place
+chamber : la chambre
+horror : une horreur
+banking : le secteur bancaire
+apple : la pomme
+implication : une implication
+steel : un acier
+throat : la gorge
+essence : une essence
+raid : le raid
+distinction : la distinction
+german : un allemand
+lip : la lèvre
+timing : le calendrier
+insight : la perspicacité
+coup : le coup d'Etat
+shift : le passage
+policeman : le policier
+habit : une habitude
+sheet : la feuille
+offender : le délinquant
+midnight : un minuit
+execution : une exécution
+anxiety : une angoisse
+strip : la bande
+pop : la pop
+wonder : une merveille
+shadow : une ombre
+liberty : la liberté
+fiction : la fiction
+intervention : une intervention
+creation : la création
+marketing : la commercialisation
+christian : le chrétien
+pot : le pot
+fishing : la pêche
+breakfast : le petit déjeuner
+tube : le tube
+determination : la détermination
+sand : le sable
+permission : une autorisation
+guideline : la ligne directrice
+shame : la honte
+riot : une émeute
+user : un utilisateur
+organ : un organe
+resort : la station
+designer : le concepteur
+comparison : la comparaison
+employment : un emploi
+bread : le pain
+wish : le souhait
+lover : un amant
+jacket : la veste
+pass : la passe
+statute : la loi
+pace : le rythme
+frame : le cadre
+confusion : la confusion
+guarantee : la garantie
+commissioner : le commissaire
+flame : la flamme
+assumption : une hypothèse
+graduate : le diplômé
+entry : une entrée
+ward : la salle
+win : la victoire
+opera : un opéra
+friendship : une amitié
+exposure : une exposition
+pig : le cochon
+mate : le second
+nerve : le nerf
+length : la longueur
+cow : la vache
+pack : le pack
+instruction : une instruction
+collapse : un effondrement
+assistant : un assistant
+objection : une objection
+scholar : le savant
+comfort : le confort
+preparation : la préparation
+province : la province
+passage : le passage
+crystal : le cristal
+gear : un engrenage
+stroke : la course
+decline : la baisse
+achievement : la réalisation
+existence : une existence
+alliance : une alliance
+profession : la profession
+delivery : la fourniture
+publisher : un éditeur
+sympathy : la sympathie
+dish : le plat
+worry : une inquiétude
+component : le composant
+adventure : une aventure
+crop : la culture
+blow : le coup
+sin : le péché
+pension : la pension
+garage : le garage
+radiation : le rayonnement
+juice : le jus
+setting : le réglage
+index : un indice
+vegetable : le légume
+partnership : le partenariat
+poetry : la poésie
+recognition : la reconnaissance
+self : le moi
+standing : le statut
+tissue : le tissu
+shell : la coquille
+captain : le capitaine
+grave : la tombe
+rank : le rang
+shortage : la pénurie
+prize : le prix
+coat : le manteau
+seed : la graine
+rat : le rat
+soil : le sol
+shore : la rive
+defeat : la défaite
+notice : un avis
+boot : la chaussure
+chart : le tableau
+ministry : le ministère
+diamond : le diamant
+finish : la finition
+admission : une admission
+dark : une obscurité
+laboratory : le laboratoire
+professional : le professionnel
+reward : la récompense
+infant : le nourrisson
+text : le texte
+shower : la douche
+dose : la dose
+panic : la panique
+net : le net
+clerk : le greffier
+miner : le mineur
+delegation : la délégation
+imagination : une imagination
+unity : une unité
+uncle : un oncle
+ingredient : un ingrédient
+affectation : une affectation
+currency : la monnaie
+battery : la batterie
+tunnel : le tunnel
+resignation : la démission
+buyer : un acheteur
+bike : le vélo
+excitement : une excitation
+mouse : la souris
+alarm : un alarme
+poet : le poète
+landscape : le paysage
+selection : la sélection
+cry : le cri
+separation : la séparation
+display : un affichage
+disability : une invalidité
+counter : le compteur
+championship : le championnat
+butter : le beurre
+portrait : le portrait
+stick : le bâton
+engineering : une ingénierie
+myth : le mythe
+essay : un essai
+cold : le froid
+coal : un charbon
+contrast : le contraste
+observation : une observation
+tail : la queue
+mechanism : le mécanisme
+scheme : le régime
+presentation : la présentation
+angel : un ange
+bonus : le bonus
+possession : la possession
+learning : un apprentissage
+teaching : un enseignement
+deck : le pont
+creature : la créature
+running : le fonctionnement
+literature : la littérature
+weakness : la faiblesse
+blue : le bleu
+engagement : un engagement
+uncertainty : une incertitude
+inquiry : une enquête
+motivation : la motivation
+dust : la poussière
+peak : un pic
+instinct : un instinct
+needle : une aiguille
+leaf : la feuille
+launch : le lancement
+laugh : le rire
+leave : le congé
+grass : une herbe
+iron : le fer
+competitor : le concurrent
+complex : le complexe
+bean : la fève
+pole : le pôle
+vessel : le récipient
+subsidy : la subvention
+landing : un atterrissage
+pipe : le tuyau
+interpretation : une interprétation
+tournament : le tournoi
+hip : la hanche
+diagnosis : le diagnostic
+pitch : le terrain
+journal : la revue
+ceiling : le plafond
+export : une exportation
+awareness : la prise de conscience
+cross : la croix
+kiss : le baiser
+examination : un examen
+empire : un empire
+replacement : le remplacement
+duck : le canard
+formula : la formule
+devil : le diable
+limitation : la limitation
+compensation : la compensation
+invitation : une invitation
+declaration : la déclaration
+final : une finale
+premium : la prime
+ambulance : une ambulance
+carpet : le tapis
+temple : le temple
+constituent : le constituant
+concession : la concession
+consent : le consentement
+premise : la prémisse
+heritage : le patrimoine
+shelf : une étagère
+hint : une astuce
+rhythm : le rythme
+liability : le passif
+heel : le talon
+layer : la couche
+strain : la souche
+carbon : le carbone
+forum : le forum
+merit : le mérite
+youngster : le jeune
+transfer : le transfert
+distribution : la distribution
+expansion : une expansion
+depth : la profondeur
+blanket : le blanchet
+kingdom : le royaume
+mud : la boue
+arrival : une arrivée
+reflection : la réflexion
+envelope : une enveloppe
+reserve : la réserve
+hunting : la chasse
+furniture : les meubles
+gesture : le geste
+residence : la résidence
+ambition : une ambition
+nail : le clou
+spectrum : le spectre
+drawing : le dessin
+enthusiasm : un enthousiasme
+pen : le stylo
+preference : la préférence
+absence : une absence
+oxygen : un oxygène
+pollution : la pollution
+lock : la serrure
+extension : une extension
+participant : le participant
+architect : un architecte
+bench : le banc
+rope : la corde
+stream : le flux
+evolution : une évolution
+angle : un angle
+jurisdiction : la compétence
+charter : la charte
+ideology : une idéologie
+tide : la marée
+representation : la représentation
+identification : une identification
+concentration : la concentration
+norm : la norme
+spread : la propagation
+rival : le rival
+disappointment : la déception
+tribunal : le tribunal
+grain : le grain
+proportion : la proportion
+fool : le fou
+merger : la fusion
+loyalty : la loyauté
+publication : la publication
+participation : la participation
+escape : un échappement
+shareholder : un actionnaire
+constituency : la circonscription
+paint : la peinture
+toilet : la toilette
+ghost : le fantôme
+attraction : une attraction
+lion : le lion
+craft : le métier
+custom : la coutume
+cliff : la falaise
+palace : le palais
+grip : la poignée
+protein : la protéine
+accuracy : une exactitude
+theft : le vol
+widow : la veuve
+acceptance : une acceptation
+accent : un accent
+smell : une odeur
+departure : le départ
+membership : les membres
+expertise : une expertise
+repair : la réparation
+assembly : une assemblée
+summary : le résumé
+logic : la logique
+boundary : la limite
+equivalent : un équivalent
+holder : le titulaire
+dimension : la dimension
+rail : le rail
+transaction : la transaction
+left : la gauche
+sequence : la séquence
+festival : le festival
+pit : la fosse
+horizon : un horizon
+bowl : le bol
+purchase : un achat
+plaintiff : le demandeur
+aunt : la tante
+equity : une équité
+load : la charge
+scope : la portée
+darkness : une obscurité
+sandwich : le sandwich
+parish : la paroisse
+closure : la fermeture
+pile : la pile
+ownership : la propriété
+origin : une origine
+defender : le défenseur
+circuit : le circuit
+introduction : une introduction
+mode : le mode
+discount : la décote
+equation : une équation
+entity : une entité
+kit : le kit
+psychology : la psychologie
+virtue : la vertu
+flexibility : la flexibilité
+trainer : le formateur
+continent : le continent
+trader : le commerçant
+bath : le bain
+brick : la brique
+indicator : un indicateur
+seller : le vendeur
+promotion : la promotion
+clash : le choc
+characteristic : la caractéristique
+coin : la pièce
+assurance : une assurance
+proposition : la proposition
+tongue : la langue
+minimum : le minimum
+collector : le collecteur
+capitalism : le capitalisme
+basket : le panier
+framework : le cadre
+consciousness : la conscience
+switch : un interrupteur
+rent : le loyer
+curve : la courbe
+cotton : le coton
+patch : le patch
+import : une importation
+isolation : un isolement
+entrance : une entrée
+necessity : la nécessité
+square : la place
+steam : la vapeur
+agriculture : une agriculture
+transformation : la transformation
+sheep : le mouton
+brush : la brosse
+database : la base de données
+deposit : le dépôt
+menu : le menu
+adjustment : un ajustement
+triumph : le triomphe
+consumption : la consommation
+guardian : le gardien
+curtain : le rideau
+satisfaction : la satisfaction
+calculation : le calcul
+fleet : la flotte
+remedy : le remède
+lane : la voie
+certificate : le certificat
+swimming : la piscine
+emission : une émission
+fabric : le tissu
+medium : le moyen
+efficiency : une efficacité
+interaction : une interaction
+cab : la cabine
+glory : la gloire
+reception : la réception
+productivity : la productivité
+acid : un acide
+servant : le serviteur
+evaluation : une évaluation
+mill : le moulin
+sum : la somme
+counterpart : la contrepartie
+sergeant : le sergent
+storage : le stockage
+fraction : la fraction
+innovation : une innovation
+stance : la position
+motor : le moteur
+format : le format
+particle : la particule
+trace : la trace
+fluid : le fluide
+curriculum : le programme
+doctrine : la doctrine
+developer : le développeur
+pause : la pause
+removal : une élimination
+sensation : la sensation
+dividend : le dividende
+monopoly : le monopole
+gallery : la galerie
+lecture : la conférence
+taxi : le taxi
+discretion : la discrétion
+flesh : la chair
+merchant : le commerçant
+quantity : la quantité
+darling : le chouchou
+justification : la justification
+painter : le peintre
+mixture : le mélange
+breach : la violation
+lift : un ascenseur
+pond : un étang
+cheek : la joue
+successor : le successeur
+registration : un enregistrement
+consultation : la consultation
+qualification : la qualification
+supplier : le fournisseur
+autumn : un automne
+hardware : le matériel
+leather : le cuir
+rabbit : le lapin
+paragraph : un paragraphe
+companion : le compagnon
+essence : une essentiel
+corridor : le couloir
+workshop : un atelier
+shade : une ombre
+accountant : le comptable
+sword : une épée
+formation : la formation
+integration : une intégration
+expenditure : la dépense
+rod : la tige
+complexity : la complexité
+skirt : la jupe
+insect : un insecte
+transport : le transport
+mortality : la mortalité
+slope : la pente
+restoration : la restauration
+nest : le nid
+variation : la variation
+composition : la composition
+crown : la couronne
+probability : la probabilité
+liberation : la libération
+attendance : la participation
+organism : un organisme
+conservation : la conservation
+sculpture : la sculpture
+champagne : le champagne
+architecture : une architecture
+council : le conseil
+university : une université
+billion : le milliard
+go : le feu
+shit : la merde
+earth : la terre
+lifespan : la durée de vie
+vat : la cuve
+purchaser : un acheteur
+fibre : la fibre
+constable : le connétable
+navy : la marine
+inn : une auberge
+programme : le programme
+mile : le mile
+fig : la figue
+photograph : la photographie
+interface : une interface
+photo : la photo
+eagle : un aigle
+colony : la colonie
+labour : la main-
+neighbour : le prochain
+red : le rouge
+rubbish : les ordures
+bush : la brousse
+lake : le lac
+lad : le jeune garçon
+judgement : le jugement
+humour : un humour
+rose : la rose
+favour : la faveur
+terrace : la terrasse
+mother : la maman
+bay : la baie
+borough : un arrondissement
+commonwealth : la république
+association : une association
+hill : la colline
+jew : le Juif
+colonel : le colonel
+god : le dieu
+constitution : la constitution
+honour : un honneur
+treasury : le trésor
+white : le blanc
+cupboard : le placard
+park : le parc
+dozen : la douzaine
+cheque : le chèque
+magistrate : le magistrat
+junction : la jonction
+ms : les ms
+hundred : la centaine
+councillor : le conseiller
+inch : le pouce
+favourite : le favori
+daddy : le papa
+pensioner : le pensionné
+rumour : la rumeur
+aids : les aides
+other : un autre
+illustration : une illustration
+avenue : une avenue
+county : le comté
+miss : la miss
+percent : le pour cent
+traveller : le voyageur
+acre : un acre
+gaze : le regard
+pope : le pape
+classification : la classification
+redundancy : la redondance
+builder : le constructeur
+metre : l'appareil de mesure
+mummy : la momie
+van : la fourgonnette
+chap : le chap
+centre : le centre
+king : le roi
+organisation : une organisation
+behaviour : le comportement
+bill : le projet de loi
+criterion : le critère
+enquiry : une enquête
+appendix : une annexe
+tutor : le tuteur
+tv : la télé
+princess : la princesse
+allocation : une attribution
+harbour : le port
+whisky : un whisky
+thousand : le mille
+defence : la défense
+queen : la reine
+republic : la république
+co : la co
+licence : la licence
+proceeding : la procédure
+duke : le duc
+tonne : la tonne
+specification : la spécification
+lorry : le camion
+million : un million
+no : le pas
+mark : la marque
+offence : une infraction
+valley : la vallée
+federation : la fédération
+villa : la villa
+abbey : une abbaye
+sociology : la sociologie
+colour : la couleur
+prince : le prince
+theatre : le théâtre
+ref : un arbitre
+dollar : le dollar
+bureau : le bureau
+lord : le seigneur
+institute : un institut
+corp : le corp
+stairs : un escalier
+catalogue : le catalogue
+earl : le comte
+petrol : une essence
+directory : le répertoire
+archbishop : un archevêque
+frequency : la fréquence
+seminar : le séminaire
+interior : un intérieur
+verse : le verset
+receipt : la réception
+breed : la race
+measurement : la mesure
+palm : la paume
+dock : le quai
+pc : le pc
+disadvantage : un inconvénient
+installation : une installation
+advertisement : la publicité
+implementation : la mise en oeuvre
+portfolio : le portefeuille
+timber : le bois
+clause : la clause
+discourse : le discours
+disc : le disque
+blade : la lame
+ratio : le rapport
+mineral : le minéral
+outline : le contour
+addition : une addition
+machinery : la machine
+canal : le canal
+local : un local
+disposal : la disposition
+refusal : le refus
+domain : le domaine
+register : le registre
+audit : un audit
+availability : la disponibilité
+acquisition : une acquisition
+autonomy : une autonomie
+silk : la soie
+beam : la poutre
+applicant : le demandeur
+modification : la modification
+tin : un étain
+fragment : le fragment
+tenant : le locataire
+conversion : la conversion
+vendor : le vendeur
+practitioner : le praticien
+delight : le plus grand plaisir
+filter : le filtre
+bronze : la médaille de bronze
+doorway : la porte
+incidence : une incidence
+lease : le bail
+constraint : la contrainte
+cloth : le tissu
+nursery : la pépinière
+creditor : le créancier
+taxation : une imposition
+disk : le disque
+dictionary : le dictionnaire
+conception : la conception
+trustee : le syndic
+molecule : la molécule
+holding : la tenue
+cottage : le chalet
+landlord : le propriétaire
+succession : la succession
+warmth : la chaleur
+spell : le sort
+chapel : la chapelle
+leisure : le loisir
+reign : le règne
+reply : la réponse
+duration : la durée
+castle : le château
+hierarchy : la hiérarchie
+correlation : la corrélation
+exclusion : une exclusion
+pub : un pub
+hypothesis : une hypothèse
+lamp : la lampe
+sphere : la sphère
+chancellor : le chancelier
+peasant : le paysan
+output : la sortie
+emperor : un empereur
+glance : le regard
+specimen : un échantillon
+directive : la directive
+thesis : la thèse
+working : le travail
+oak : le chêne
+turnover : le chiffre d'affaires
+allowance : une allocation
+tray : le bac
+auditor : un auditeur
+server : le serveur
+cathedral : la cathédrale
+pity : la pitié
+variable : la variable
+clay : une argile
+carriage : le chariot
+cinema : le cinéma
+leaflet : la notice
+copper : un cuivre
+density : la densité
+subsidiary : la filiale
+dismissal : le licenciement
+completion : un achèvement
+processor : le processeur
+packet : le paquet
+wool : la laine
+heading : un en-tête
+grammar : la grammaire
+pavement : le trottoir
+receiver : le récepteur
+module : le module
+railway : la voie ferrée
+pupil : la pupille
+cricket : le grillon
+printer : une imprimante
+interval : un intervalle
+diagram : le diagramme
+bastard : le bâtard
+diary : un agenda
+opera : un opéra
+tapioca : le tapioca
+magma : le magma
+soda : le soda
+pizza : la pizza
+cafeteria : la cafétéria
+ant : la fourmi
+bucket : le seau
+owl : un hibou
+jewel : le bijou
+pebble : le caillou
+beak : le bec
+lead : le plomb
+north : le nord
+fog : le brouillard
+knot : le nœud
+threshold : le seuil
+honey : le miel
+mourning : le deuil
+thread : le fil
+eyebrow : le sourcil
+perfume : le parfum
+first name : le prénom
+jeep : la jeep
+moviestar : la star
+tower : la tour
+back : le dos
+month : le mois
+verse : le verse
+occasion : la fois
+oasis : une oasis
+screw : la vis
+stop : un arrêt
+right : un droit
+faucet : le robinet
+desire : le souhait
+majority : la plupart
+nut : la noix
+cough : la toux
+worry : le souci
+misunderstanding : le malentendu
+receipt : le reçu
+flag : le bandeau
+gulp : la gorgée
+zenith : un apogée
+alley : une allée
+comedy : la comédie
+chalk : la craie
+fury : la furie
+insomnia : une insomnie
+trickery : la tromperie
+melancholy : la mélancolie
+prey : la proie
+wound : la plaie
+genius : le génie
+confligration : un incendie
+umbrella : le parapluie
+plow : la charrue
+mud : la boue
+molting : la mue
+holding : la tenue
+view : une entrevue
+amoeba : une amibe
+dove : la colombe
+tomb : la tombe
+curve : la courbe
+dawn : une aube
+cube : le cube
+verb : le verbe
+microbe : le microbe
+globe : le globe
+front : la face
+grimace : la grimace 
+ounce : une once
+populace : la populace	
+spring (natural) : la source 
+resource : la ressource
+thumb : le pouce
+business : le commerce
+divorce : le divorce
+habit : une habitude
+large village : la bourgade
+waterfall : la cascade
+pomegranate : la grenade
+legend : la légende
+method : la méthode
+fluid : le fluide
+elbow : le coude
+clasp : un agrafe 
+carafe : la carafe
+hairstyle : la coiffe
+material : une étoffe
+gulf : le golfe
+candle : la chandelle
+lace : la dentelle
+ladder : une échelle
+string : la ficelle
+gazelle : la gazelle
+garbage can : la poubelle
+dishes : la vaisselle
+sunshade : une ombrelle
+grasshopper : la sauterelle
+vermicelli : le vermicelle
+grate : la grille 
+bee : une abeille
+basket : la corbeille
+the day before : la veille
+the day after : le lendemain
+interval : un intervalle
+car : la bagnole
+saucepan : la casserole
+console : la console
+idol : une idole
+word : la parole
+monopoly : le monopole
+role : le rôle
+control : le contrôle
+symbol : le symbole
+cymbal : la cymbale
+port of call : une escale
+pedal : la pédale
+sandal : la sandale
+shawl : le châle
+petal : le pétale
+scandal : le scandale
+film : la pellicule
+bladder : la vésicule
+bulb, blister : une ampoule 
+crowd : la foule
+villain : la crapule
+capsule : la capsule
+mouth of an animal : la gueule
+preamble : le préambule
+tenticle : le tentacule
+ventricle : le ventricule
+intrigue : une intrigue
+fatigue : la fatigue
+drug : la drogue
+fashion : la vogue
+monolog : le monologue
+back of the neck : la nuque
+mosquito : le moustique
+hate : la haine
+chain : la chaîne
+saxophone : le saxophone
+vine : la vigne
+mountain : la montagne
+thrift : une épargne
+countryside : la campagne
+line : la ligne
+swan : le cygne
+embarrassment : le gène
+comb : le peigne
+isotope : un isotope
+microscope : le microscope
+floor : une étape
+team : une équipe
+wasp : la guêpe
+lamp : la lampe
+skirt : la jupe
+soup : la soupe
+swimming : la nage
+rabies : la rage
+stable : une étable
+fable : une fable
+URL : une URL
+manicle : la manicle
+debacle : la débâcle
+loop : une boucle
+expresso : un expresso
+watering can : un arrosoir
+loto : le loto
+bamboo : le bambou
+nanny : une nounou
+teddy bear, comforter : le doudou
+start up : une start-up
+underwear (men's) : un slip
+field : un champ
+cabbage : un chou
+jeep : une jeep
+beef : un bœuf
+bro : un frérot
+cowboy boot : une santiag
+ante : la mise
+merry-go-round : le manège
+arpagio : un arpège
+couch : le canapé
+square : le carré
+procession : le défilé
+supermarket : le supermarché
+psyche : la psyché
+subscription : une abonnement
+beginning : le commencement
+shop : le magasin
+sitting room : le salon
+trousers : le pantalon
+bus : le bus
+bottom : le bas
+page boy : le page
+shovel : la pelle
+saddle : le selle
+sock : la chaussette
+saddness : la tristesse
+little girl : la fillette
+skeleton : le squelette
+bastion : le bastion
+spoonful : la cuillerée
+roadway : la chaussée
+mouthful : la bouchée
+task : la corvée
+high school : le lycée
+rocket : la fusée
+bakery : la boulangerie
+butcher shop : la boucherie
+book shop : la librairie
+grocery : la épicerie
+ringing of a bell : la sonnerie
+police station : la gendarmerie
+toothpaste : le dentifrice
