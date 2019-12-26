@@ -23,7 +23,6 @@ const getRuleNumberInput = (frenchSet) => {
       })
 
       let proposedConceptualRule = ruleByKey(parseInt(conceptualRuleKey, 10))[0]
-      console.log(proposedConceptualRule)
       if (proposedConceptualRule !== undefined) {
         conceptualRule = proposedConceptualRule
       }
