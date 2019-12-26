@@ -1,9 +1,9 @@
-const { conceptualPatterns, endingsPatterns } = require('./patterns');
+const { conceptualPatterns, consonantPattern, endingsPatterns } = require('./patterns');
 
 const conceptualPatternsKeyRange = (range = conceptualPatterns) => {
   return {
-    min: conceptualPatterns[0].key, 
-    max: conceptualPatterns[conceptualPatterns.length -1].key
+    min: range[0].key, 
+    max: range[conceptualPatterns.length -1].key
   };
 }
 
@@ -13,16 +13,17 @@ const ruleByKey = (key) => {
         || underfined;
 }
 
-const frenchRuleSet = (frenchWord, gender) => { // returns the rule
-  const matchesConceptRule = (frenchWord, ruleObj) => ruleObj.matches.includes(frenchWord);
-  const matchesEnding = (frenchWord, ruleObj) => frenchWord.endsWith(ruleObj.rule);
+const frenchRuleSet = (frenchWord, _) => { // returns the rule object
+  const inMatchArray = (testString, ruleObj) => ruleObj.matches.includes(testString);
+  const matchesEnding = (testString, ruleObj) => testString.endsWith(ruleObj.rule);
 
-  const ruleMatch = (ruleSetFunction, ruleSet) => { // return rule object
+  const ruleMatch = (testString, ruleSetFunction, ruleSet) => { // return rule object
+    console.log(testString)
     
     for (var i = 0; i < ruleSet.length; i ++) {
       const ruleObj = ruleSet[i];
 
-      if ( ruleSetFunction(frenchWord, ruleObj)) {
+      if ( ruleSetFunction(testString, ruleObj)) {
         return ruleObj
       }
     }
@@ -30,16 +31,22 @@ const frenchRuleSet = (frenchWord, gender) => { // returns the rule
     return false
   };
 
-  const conceptualPatternsMatch = ruleMatch(matchesConceptRule, conceptualPatterns);
+  const conceptualPatternsMatch = ruleMatch(frenchWord, inMatchArray, conceptualPatterns);
 
   if (conceptualPatternsMatch !== false) {
     return conceptualPatternsMatch;
   }
 
-  const endingsPatternsMatch = ruleMatch(matchesEnding, endingsPatterns);
+  const endingsPatternsMatch = ruleMatch(frenchWord, matchesEnding, endingsPatterns);
 
   if (endingsPatternsMatch !== false) {
     return endingsPatternsMatch;
+  }
+
+  const consonentPatternsMatch = ruleMatch(frenchWord.charAt(frenchWord.length -1), inMatchArray, consonantPattern);
+
+  if (consonentPatternsMatch !== false) {
+    return consonentPatternsMatch;
   }
 
   return false;
