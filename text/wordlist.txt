@@ -575,7 +575,7 @@ extent : la mesure
 contract : le contrat
 sentence : la phrase
 measure : la mesure
-deputy : le vice
+deputy : le vice-
 confidence : la confiance
 hell : un enfer
 relief : le relief
@@ -1712,7 +1712,7 @@ interface : une interface
 photo : la photo
 eagle : un aigle
 colony : la colonie
-labour : la main
+labour : la main-
 neighbour : le prochain
 red : le rouge
 rubbish : les ordures

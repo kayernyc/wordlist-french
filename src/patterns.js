@@ -75,7 +75,7 @@ const endingsPatterns = [
 ];
 
 const consonantPattern = [
-  {key: 73, gender: 0, rule: 'Words ending in consonants (in the spelling) are usually masculine.', exceptions: ['mob', 'pub', 'alloc', 'collec', 'doc', 'embroc', 'fac', 'réduc', 'soif', 'clef', 'nef', 'façon', 'fin', 'leçon', 'main', 'maman', 'rançon', 'chair', 'cour', 'cuiller', 'mer', 'tour', 'brebis', 'fois', 'oasis', 'souris', 'vis', 'burlat', 'dent', 'dot', 'forêt', 'mort', 'nuit', 'part', 'plupart', 'ziggourat', 'roseval', 'faim', 'croix', 'noix', 'paix', 'toux', 'voix'], matches: ['b', 'c', 'd', 'f', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x']},
+  {key: 73, gender: 0, rule: 'Words ending in consonants (in the spelling) are usually masculine.', exceptions: ['mob', 'pub', 'alloc', 'collec', 'doc', 'embroc', 'fac', 'réduc', 'soif', 'clef', 'nef', 'façon', 'fin', 'leçon', 'main', 'maman', 'rançon', 'chair', 'cour', 'cuiller', 'mer', 'tour', 'brebis', 'fois', 'oasis', 'souris', 'vis', 'burlat', 'dent', 'dot', 'forêt', 'mort', 'nuit', 'part', 'plupart', 'ziggourat', 'roseval', 'faim', 'croix', 'noix', 'paix', 'toux', 'voix']},
 ]
 
 const conceptualPatterns = [
@@ -98,10 +98,10 @@ const conceptualPatterns = [
   {key: 90, gender: 1, rule: 'Words for points in time are masculine', matches: ['jour', 'an', 'soir', 'matin']},
   {key: 91, gender: 1, rule: 'Apocopes are words which drop part of the end. Think of \'cred\' for credit or \'mag\' for magazine in English. Apocopes in French usually take the gender of their source words.', matches: ['santiag', 'métro', 'vélo', 'auto', 'accu', 'actu', 'ado', 'appart', 'ciné', 'fac', 'manif', 'météo', 'moto']},
   {key: 92, gender: 0, rule: 'Most untraslated foreign words are masculine', matches: []},
+
 ];
 
 module.exports = {
   conceptualPatterns: conceptualPatterns,
-  consonantPattern: consonantPattern,
   endingsPatterns: endingsPatterns,
 }
