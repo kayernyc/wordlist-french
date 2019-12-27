@@ -17,9 +17,7 @@ const frenchRuleSet = (frenchWord, _) => { // returns the rule object
   const inMatchArray = (testString, ruleObj) => ruleObj.matches.includes(testString);
   const matchesEnding = (testString, ruleObj) => testString.endsWith(ruleObj.rule);
 
-  const ruleMatch = (testString, ruleSetFunction, ruleSet) => { // return rule object
-    console.log(testString)
-    
+  const ruleMatch = (testString, ruleSetFunction, ruleSet) => { // return rule object    
     for (var i = 0; i < ruleSet.length; i ++) {
       const ruleObj = ruleSet[i];
 

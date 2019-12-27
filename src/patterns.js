@@ -79,7 +79,7 @@ const consonantPattern = [
 ]
 
 const conceptualPatterns = [
-  {key: 74, gender: 0, rule: 'Words ending in other consonants (in the spelling).', matches: []},
+  {key: 74, gender: 0, rule: 'Words ending in other consonants (in the spelling).', matches: ['nez', 'étang', 'sang', 'rang']},
   {key: 75, gender: 0, rule: 'Certain nouns referring to animals that can refer to only the male of the species. For example: étalon (stallion), cerf (stag), matou (tomcat).', matches: ['étalon', 'stag', 'matou']},
   {key: 76, gender: 0, rule: 'Masculine nouns that are \'generic\' terms and can refer to either a male or female of the species. For example, le cheval can refer to either a male or female horse.', matches: ['cheval']},
   {key: 77, gender: 0, rule: 'Names of towns. Other place names (departments, rivers, countries) not ending in -e. Sometimes town names, especially if they look or sound feminine (e.g. Marseilles ending in -es), can be treated as feminine. This is quite rare, though.', matches: ['Mexique', 'Combodge', 'Rhône', 'Finistère', 'Zimbabwe', 'Norvège']},
@@ -97,7 +97,7 @@ const conceptualPatterns = [
   {key: 89, gender: 1, rule: 'Words for durations of time are feminine', matches: ['journée', 'année', 'soirée', 'matinée', 'nuitée']},
   {key: 90, gender: 1, rule: 'Words for points in time are masculine', matches: ['jour', 'an', 'soir', 'matin']},
   {key: 91, gender: 1, rule: 'Apocopes are words which drop part of the end. Think of \'cred\' for credit or \'mag\' for magazine in English. Apocopes in French usually take the gender of their source words.', matches: ['santiag', 'métro', 'vélo', 'auto', 'accu', 'actu', 'ado', 'appart', 'ciné', 'fac', 'manif', 'météo', 'moto']},
-  {key: 92, gender: 0, rule: 'Most untraslated foreign words are masculine', matches: []},
+  {key: 92, gender: 0, rule: 'Most untraslated foreign words are masculine', matches: ['look', 'jury', 'stock', 'gang', 'crash', 'gaz', 'match', 'whisky', 'URL']},
 ];
 
 module.exports = {
