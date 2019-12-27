@@ -28,6 +28,7 @@ const getRuleNumberInput = (frenchSet) => {
       }
       
     } else {
+      process.stdout.write(conceptualRule.rule + '\n')
       confirmed = readlineSync.keyInYN('is this correct?')
       if (!confirmed) {
         conceptualRule = undefined;
@@ -80,7 +81,7 @@ const parseLine = async line => {
   if (processedArray[1] !== undefined) {
     try {
       const frenchString = await frenchRecord(processedArray[1].trim().split(' '))
-      return Promise.resolve(frenchString);
+      return Promise.resolve(`"english": "${processedArray[0].trimEnd()}", ${frenchString}`);
     } catch (error) {
       throw error
     }
@@ -108,7 +109,9 @@ const convertDataChunk = async (chunk) => {
 const transform = new Transform({transform(chunk, _, callback) {
   convertDataChunk(chunk)
     .then(data => {
-      let file = new String()
+      let file = ''
+
+      // data = [...data]
       
       data.forEach(line => {
         if (line.length > 0) {
@@ -116,7 +119,6 @@ const transform = new Transform({transform(chunk, _, callback) {
         }
       })
 
-      this.push(file)
       callback(null, file);
     })
     .catch(err => {
