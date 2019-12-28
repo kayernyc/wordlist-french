@@ -71,7 +71,7 @@ const frenchRecord = async (frenchSet) => {
 
   genderException = genderRule.gender === gender ? true : false
 
-  return `"french": "${word}", "gender" : "${gender}", "genderKey" : "${genderRule.key}", "exception" : "${genderException}"`
+  return `"french": "${word}", "gender" : ${gender}, "genderRuleKey" : ${genderRule.key}, "exception" : ${genderException}`
 }
 
 const parseLine = async line => {
